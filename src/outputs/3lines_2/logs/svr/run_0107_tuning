@@ -1,0 +1,406 @@
+2019/01/07 17:08 - [main - <module>:115 ] - [INFO ] - Loading & preparing data
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0100  Gamma = 0.0100
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.4297  RMSE = 4.0437
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.4953  RMSE = 4.1069
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0100  Gamma = 0.0500
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.2001  RMSE = 3.7487
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.2615  RMSE = 3.8095
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0100  Gamma = 0.1000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.1260  RMSE = 3.6728
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.1761  RMSE = 3.7233
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0100  Gamma = 0.5000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.2383  RMSE = 3.7908
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.2885  RMSE = 3.8398
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0100  Gamma = 1.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.3325  RMSE = 3.8931
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.3895  RMSE = 3.9464
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0100  Gamma = 5.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.5025  RMSE = 4.0879
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.5720  RMSE = 4.1438
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0100  Gamma = 10.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.5494  RMSE = 4.1436
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.6243  RMSE = 4.2013
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0100  Gamma = 20.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.5836  RMSE = 4.1846
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.6624  RMSE = 4.2429
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0100  Gamma = 50.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.6150  RMSE = 4.2222
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.6974  RMSE = 4.2804
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0100  Gamma = 100.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.6309  RMSE = 4.2417
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.7155  RMSE = 4.3004
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0500  Gamma = 0.0100
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.1271  RMSE = 3.7655
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.2033  RMSE = 3.8170
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0500  Gamma = 0.0500
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.5246  RMSE = 3.2187
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.5578  RMSE = 3.2529
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0500  Gamma = 0.1000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.3443  RMSE = 3.1374
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.3486  RMSE = 3.1632
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0500  Gamma = 0.5000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.3571  RMSE = 3.1682
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.3799  RMSE = 3.2133
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0500  Gamma = 1.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.4587  RMSE = 3.2214
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.4896  RMSE = 3.2734
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0500  Gamma = 5.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.9032  RMSE = 3.4759
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.9540  RMSE = 3.5282
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0500  Gamma = 10.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.0912  RMSE = 3.6424
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.1605  RMSE = 3.7067
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0500  Gamma = 20.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.2381  RMSE = 3.7932
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.3266  RMSE = 3.8712
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0500  Gamma = 50.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.3767  RMSE = 3.9490
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.4844  RMSE = 4.0402
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.0500  Gamma = 100.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.4517  RMSE = 4.0362
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.5689  RMSE = 4.1320
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.1000  Gamma = 0.0100
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.9882  RMSE = 3.6423
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.0504  RMSE = 3.6743
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.1000  Gamma = 0.0500
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.2637  RMSE = 3.0923
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.2640  RMSE = 3.1198
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.1000  Gamma = 0.1000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.1598  RMSE = 3.0726
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.1357  RMSE = 3.0915
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.1000  Gamma = 0.5000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.1053  RMSE = 3.0652
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.1243  RMSE = 3.1096
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.1000  Gamma = 1.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.1502  RMSE = 3.0831
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.1795  RMSE = 3.1337
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.1000  Gamma = 5.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.4586  RMSE = 3.1956
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.5074  RMSE = 3.2644
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.1000  Gamma = 10.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.6488  RMSE = 3.2886
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.7196  RMSE = 3.3639
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.1000  Gamma = 20.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.8705  RMSE = 3.4433
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.9627  RMSE = 3.5303
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.1000  Gamma = 50.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.1148  RMSE = 3.6663
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.2468  RMSE = 3.7851
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.1000  Gamma = 100.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 3.2463  RMSE = 3.8085
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 3.4016  RMSE = 3.9449
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.5000  Gamma = 0.0100
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.6265  RMSE = 3.5229
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.6262  RMSE = 3.5180
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.5000  Gamma = 0.0500
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.1143  RMSE = 3.0429
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0820  RMSE = 3.0587
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.5000  Gamma = 0.1000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.0771  RMSE = 3.0329
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0579  RMSE = 3.0513
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.5000  Gamma = 0.5000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9665  RMSE = 3.0568
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9746  RMSE = 3.1038
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.5000  Gamma = 1.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9412  RMSE = 3.0607
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9525  RMSE = 3.1102
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.5000  Gamma = 5.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9226  RMSE = 3.0550
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9523  RMSE = 3.1198
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.5000  Gamma = 10.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9294  RMSE = 3.0361
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9747  RMSE = 3.1109
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.5000  Gamma = 20.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9839  RMSE = 2.9861
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0756  RMSE = 3.0859
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.5000  Gamma = 50.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.1474  RMSE = 2.9824
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.3301  RMSE = 3.1623
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 0.5000  Gamma = 100.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.2984  RMSE = 3.0500
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.5613  RMSE = 3.3015
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 1.0000  Gamma = 0.0100
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.5628  RMSE = 3.4049
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.5652  RMSE = 3.4115
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 1.0000  Gamma = 0.0500
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.1047  RMSE = 3.0430
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0742  RMSE = 3.0557
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 1.0000  Gamma = 0.1000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.0544  RMSE = 3.0382
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0419  RMSE = 3.0606
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 1.0000  Gamma = 0.5000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9538  RMSE = 3.0639
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9586  RMSE = 3.1116
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 1.0000  Gamma = 1.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9284  RMSE = 3.0688
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9371  RMSE = 3.1180
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 1.0000  Gamma = 5.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9027  RMSE = 3.0587
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9379  RMSE = 3.1249
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 1.0000  Gamma = 10.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8942  RMSE = 3.0429
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9420  RMSE = 3.1186
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 1.0000  Gamma = 20.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8877  RMSE = 3.0159
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9614  RMSE = 3.1111
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 1.0000  Gamma = 50.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9019  RMSE = 2.9469
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0872  RMSE = 3.1261
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 1.0000  Gamma = 100.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9519  RMSE = 2.8891
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.2650  RMSE = 3.1872
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 5.0000  Gamma = 0.0100
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.4329  RMSE = 3.1238
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.4543  RMSE = 3.1702
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 5.0000  Gamma = 0.0500
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.0965  RMSE = 3.0396
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0696  RMSE = 3.0502
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 5.0000  Gamma = 0.1000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.0126  RMSE = 3.0457
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0067  RMSE = 3.0786
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 5.0000  Gamma = 0.5000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9374  RMSE = 3.0725
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9430  RMSE = 3.1223
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 5.0000  Gamma = 1.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9171  RMSE = 3.0774
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9280  RMSE = 3.1281
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 5.0000  Gamma = 5.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8828  RMSE = 3.0483
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9802  RMSE = 3.1689
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 5.0000  Gamma = 10.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8682  RMSE = 3.0333
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9804  RMSE = 3.1685
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 5.0000  Gamma = 20.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8482  RMSE = 3.0038
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0318  RMSE = 3.1932
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 5.0000  Gamma = 50.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8032  RMSE = 2.9552
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.1685  RMSE = 3.2829
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 5.0000  Gamma = 100.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.7597  RMSE = 2.9071
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.2861  RMSE = 3.3655
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 10.0000  Gamma = 0.0100
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.3845  RMSE = 3.0836
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.4255  RMSE = 3.1429
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 10.0000  Gamma = 0.0500
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.0922  RMSE = 3.0380
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0668  RMSE = 3.0490
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 10.0000  Gamma = 0.1000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.0004  RMSE = 3.0516
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0017  RMSE = 3.0888
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 10.0000  Gamma = 0.5000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9335  RMSE = 3.0720
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9418  RMSE = 3.1223
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 10.0000  Gamma = 1.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9149  RMSE = 3.0778
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9273  RMSE = 3.1290
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 10.0000  Gamma = 5.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8795  RMSE = 3.0493
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9783  RMSE = 3.1721
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 10.0000  Gamma = 10.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8647  RMSE = 3.0267
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9858  RMSE = 3.1665
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 10.0000  Gamma = 20.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8382  RMSE = 2.9982
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0684  RMSE = 3.2194
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 10.0000  Gamma = 50.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.7863  RMSE = 2.9534
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.2220  RMSE = 3.3417
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 10.0000  Gamma = 100.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.7435  RMSE = 2.9095
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.3252  RMSE = 3.4244
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 20.0000  Gamma = 0.0100
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.3459  RMSE = 3.1085
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.3987  RMSE = 3.1703
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 20.0000  Gamma = 0.0500
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.0850  RMSE = 3.0366
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0616  RMSE = 3.0489
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 20.0000  Gamma = 0.1000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9950  RMSE = 3.0566
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9984  RMSE = 3.0955
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 20.0000  Gamma = 0.5000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9300  RMSE = 3.0740
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9386  RMSE = 3.1247
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 20.0000  Gamma = 1.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9126  RMSE = 3.0707
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9278  RMSE = 3.1232
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 20.0000  Gamma = 5.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8769  RMSE = 3.0501
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9737  RMSE = 3.1736
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 20.0000  Gamma = 10.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8603  RMSE = 3.0281
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0109  RMSE = 3.1840
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 20.0000  Gamma = 20.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8300  RMSE = 2.9886
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.1093  RMSE = 3.2456
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 20.0000  Gamma = 50.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.7734  RMSE = 2.9496
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.2564  RMSE = 3.3848
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 20.0000  Gamma = 100.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.7305  RMSE = 2.9108
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.3431  RMSE = 3.4486
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 50.0000  Gamma = 0.0100
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.2902  RMSE = 3.1375
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.3311  RMSE = 3.1856
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 50.0000  Gamma = 0.0500
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.0697  RMSE = 3.0334
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0486  RMSE = 3.0486
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 50.0000  Gamma = 0.1000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9903  RMSE = 3.0578
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9972  RMSE = 3.0984
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 50.0000  Gamma = 0.5000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9262  RMSE = 3.0759
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9357  RMSE = 3.1267
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 50.0000  Gamma = 1.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9102  RMSE = 3.0634
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9354  RMSE = 3.1206
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 50.0000  Gamma = 5.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8735  RMSE = 3.0460
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9750  RMSE = 3.1734
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 50.0000  Gamma = 10.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8558  RMSE = 3.0259
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0228  RMSE = 3.1942
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 50.0000  Gamma = 20.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8210  RMSE = 2.9937
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.1683  RMSE = 3.2968
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 50.0000  Gamma = 50.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.7617  RMSE = 2.9430
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.2917  RMSE = 3.4199
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 50.0000  Gamma = 100.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.7184  RMSE = 2.8973
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.3702  RMSE = 3.4678
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 100.0000  Gamma = 0.0100
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.2410  RMSE = 3.0938
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.2702  RMSE = 3.1337
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 100.0000  Gamma = 0.0500
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 2.0548  RMSE = 3.0318
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0357  RMSE = 3.0502
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 100.0000  Gamma = 0.1000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9875  RMSE = 3.0570
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9947  RMSE = 3.0986
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 100.0000  Gamma = 0.5000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9232  RMSE = 3.0808
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9345  RMSE = 3.1314
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 100.0000  Gamma = 1.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.9085  RMSE = 3.0549
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9443  RMSE = 3.1192
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 100.0000  Gamma = 5.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8712  RMSE = 3.0377
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 1.9779  RMSE = 3.1693
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 100.0000  Gamma = 10.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8521  RMSE = 3.0193
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.0391  RMSE = 3.2045
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 100.0000  Gamma = 20.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.8148  RMSE = 2.9988
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.1893  RMSE = 3.3209
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 100.0000  Gamma = 50.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.7545  RMSE = 2.9259
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.3036  RMSE = 3.4208
+2019/01/07 17:08 - [main - params_t:54  ] - [INFO ] - **************************************************
+2019/01/07 17:08 - [main - params_t:56  ] - [INFO ] - C = 100.0000  Gamma = 100.0000
+2019/01/07 17:08 - [main - params_t:79  ] - [INFO ] - Train MAE = 1.7093  RMSE = 2.8816
+2019/01/07 17:08 - [main - params_t:81  ] - [INFO ] - Valid MAE = 2.3766  RMSE = 3.4743
+2019/01/07 17:08 - [main - params_t:86  ] - [INFO ] - ==================================================
+2019/01/07 17:08 - [main - params_t:90  ] - [INFO ] - Best Valid MAE = 1.9273  with C = 10.0000 Gamma = 1.0000
+2019/01/07 17:08 - [main - <module>:168 ] - [INFO ] - ==================================================
+2019/01/07 17:08 - [main - <module>:169 ] - [INFO ] - Parameters & settings
+2019/01/07 17:08 - [main - <module>:170 ] - [INFO ] - {'_comment': 'Log', 'random_seed': 1234, '3lines_2': {'path': '../../data/3lines_2', 'train': {'file': '3lines_2_train.txt', 'num_load': None}, 'test': {'file': '3lines_2_test.txt', 'num_load': None}}, 'beta': {}, 'linear': {}, 'svr': {'kernel': 'rbf', 'gamma': 1, 'C': 1, 'epsilon': 0, 'shrinking': False, 'tol': 0.001}, 'decision_tree': {}, 'random_forest': {}, 'gaussian_process': {}, 'train': {'beta': {}, 'svr': {'parameter_tuning': True, 'valid_split': 0.7, 'C': [0.01, 0.05, 0.1, 0.5, 1, 5, 10, 20, 50, 100], 'Gamma': [0.01, 0.05, 0.1, 0.5, 1, 5, 10, 20, 50, 100]}}, 'verbose': False, 'log_dir': '../outputs/3lines_2/logs/svr', 'log_file': 'run_0107_tuning', 'log': {'version': 1, 'disable_existing_loggers': False, 'formatters': {'custom': {'format': '%(asctime)s - [%(name)s - %(funcName)-8.8s:%(lineno)-4d] - [%(levelname)-5.5s] - %(message)s', 'datefmt': '%Y/%m/%d %H:%M'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'DEBUG', 'formatter': 'custom', 'stream': 'ext://sys.stdout'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'DEBUG', 'formatter': 'custom', 'filename': '../outputs/3lines_2/logs/svr/run_0107_tuning', 'maxBytes': 10485760, 'backupCount': 20, 'encoding': 'utf8'}}, 'loggers': {'main': {'level': 'DEBUG', 'handlers': ['console', 'file'], 'propagate': False}}, 'root': {'level': 'DEBUG', 'handlers': []}}}
