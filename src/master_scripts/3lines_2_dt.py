@@ -64,17 +64,14 @@ if train_opts['parameter_tuning'] is True:  # tuning
     if X_train.ndim < 2:
         X_train = X_train.reshape(-1, 1)
 
-    model = get_decision_tree(train_opts['preset'])
+    model = get_decision_tree(train_opts['preset_model_params'])
 
     grid = GridSearchCV(model, **train_opts['tuning_settings'])
-                 # scoring=train_opts['scoring'],
-                 # n_jobs=train_opts['n_jobs'],
-                 # iid=train_opts['iid'],
-                 # refit=train_opts['refit'],
-                 # cv=train_opts['cv'],
-                 # return_train_score=train_opts['return_train_score'])
     grid.fit(X_train, Y_train)
-    pdb.set_trace()
+
+    logger.info('=' * 50)
+    logger.info('Best parameters: ')
+    logger.info(grid.best_params_)
 
 else:  # normal training
 

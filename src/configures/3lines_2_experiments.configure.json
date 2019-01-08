@@ -38,15 +38,15 @@
     },
 
     "decision_tree": {
-        "criterion": "mse",
+        "criterion": "mae",
         "splitter": "best",
-        "max_depth": null,
-        "min_samples_split": 2,
-        "min_samples_leaf": 1,
-        "max_features": null,
-        "random_state": 1234,
+        "max_depth": 5,
         "max_leaf_nodes": null,
+        "max_features": null,
+        "min_samples_split": 2,
+        "min_samples_leaf": 4,
         "min_impurity_decrease": 0,
+        "random_state": 1234,
         "presort": false
     },
 
@@ -70,9 +70,9 @@
         },
 
         "decision_tree": {
-            "parameter_tuning": true,
+            "parameter_tuning": false,
 
-            "preset": {
+            "preset_model_params": {
                 "splitter": "best",
                 "random_state": 1234,
                 "presort": false
@@ -81,18 +81,19 @@
             "tuning_settings": {
                 "param_grid": {
                     "criterion": ["mse", "mae"],
-                    "max_depth": [2, 3, 4, 5, 6, 7, 8, null],
-                    "min_samples_split": [2, 3, 4, 5],
-                    "min_samples_leaf": [1, 2, 3, 4],
-                    "max_features": [null],
+                    "max_depth": [2, 3, 4, 5, 6, 7, null],
                     "max_leaf_nodes": [null],
-                    "min_impurity_decrease": [0, 0.1, 0.2, 0.5]
+                    "max_features": [null],
+                    "min_samples_split": [2, 3, 4, 5, 6, 7],
+                    "min_samples_leaf": [1, 2, 3, 4, 5, 6],
+                    "min_impurity_decrease": [0, 0.1, 0.2, 0.3]
                 },
 
                 "cv": 3,
                 "scoring": ["neg_mean_absolute_error", "neg_mean_squared_error"],
                 "iid": false,
-                "n_jobs": 2,
+                "n_jobs": 4,
+                "verbose": 1,
                 "refit": "neg_mean_absolute_error",
                 "return_train_score": false
             }
@@ -107,7 +108,7 @@
     "_comment": "Log",
     "verbose": false,
     "log_dir": "../outputs/3lines_2/logs/dt",
-    "log_file": "run_0107_tune",
+    "log_file": "run_0108_test",
 
     "log": {
         "version": 1,
@@ -132,7 +133,7 @@
                 "class": "logging.handlers.RotatingFileHandler",
                 "level": "DEBUG",
                 "formatter": "custom",
-                "filename": "../outputs/3lines_2/logs/dt/run_0107_tune",
+                "filename": "../outputs/3lines_2/logs/dt/run_0108_test",
                 "maxBytes": 10485760,
                 "backupCount": 20,
                 "encoding": "utf8"
