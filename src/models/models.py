@@ -54,3 +54,20 @@ def get_decision_tree(params):
     model = DecisionTreeRegressor(**params)
 
     return model
+
+
+def get_random_forest(params):
+    '''
+    Parameters
+    ----------
+    params: dict
+
+    Returns
+    -------
+    model: sklearn model
+    '''
+    from sklearn.ensemble import RandomForestRegressor
+
+    model = RandomForestRegressor(**params)
+
+    return model

@@ -51,6 +51,18 @@
     },
 
     "random_forest": {
+        "n_estimators": 10,
+        "criterion": "mae",
+        "max_depth": 5,
+        "max_leaf_nodes": null,
+        "max_features": null,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "min_impurity_decrease": 0,
+        "bootstrap": true,
+        "n_jobs": 1,
+        "random_state": 1234,
+        "verbose": 0
     },
 
     "gaussian_process": {
@@ -62,12 +74,14 @@
         "beta": {
         },
 
+
         "svr": {
             "parameter_tuning": false,
             "valid_split": 0.7,
             "C": [0.01, 0.05, 0.1, 0.5, 1, 5, 10, 20, 50, 100],
             "Gamma": [0.01, 0.05, 0.1, 0.5, 1, 5, 10, 20, 50, 100]
         },
+
 
         "decision_tree": {
             "parameter_tuning": false,
@@ -92,7 +106,40 @@
                 "cv": 3,
                 "scoring": ["neg_mean_absolute_error", "neg_mean_squared_error"],
                 "iid": false,
-                "n_jobs": 4,
+                "n_jobs": 2,
+                "verbose": 1,
+                "refit": "neg_mean_absolute_error",
+                "return_train_score": false
+            }
+        },
+
+
+        "random_forest": {
+            "parameter_tuning": true,
+
+            "preset_model_params": {
+                "random_state": 1234,
+                "n_jobs": 1,
+                "verbose": 0
+            },
+
+            "tuning_settings": {
+                "param_grid": {
+                    "n_estimators": [1, 5, 10, 15, 20],
+                    "criterion": ["mse", "mae"],
+                    "max_depth": [2, 3, 4, 5, 6, 7, null],
+                    "max_leaf_nodes": [null],
+                    "max_features": [null],
+                    "min_samples_split": [2, 3, 4, 5, 6, 7],
+                    "min_samples_leaf": [1, 2, 3, 4, 5, 6],
+                    "min_impurity_decrease": [0, 0.1, 0.2, 0.3],
+                    "bootstrap": [true, false]
+                },
+
+                "cv": 3,
+                "scoring": ["neg_mean_absolute_error", "neg_mean_squared_error"],
+                "iid": false,
+                "n_jobs": 2,
                 "verbose": 1,
                 "refit": "neg_mean_absolute_error",
                 "return_train_score": false
@@ -107,7 +154,7 @@
 
     "_comment": "Log",
     "verbose": false,
-    "log_dir": "../outputs/3lines_2/logs/dt",
+    "log_dir": "../outputs/3lines_2/logs/rf",
     "log_file": "run_0108_test",
 
     "log": {
@@ -133,7 +180,7 @@
                 "class": "logging.handlers.RotatingFileHandler",
                 "level": "DEBUG",
                 "formatter": "custom",
-                "filename": "../outputs/3lines_2/logs/dt/run_0108_test",
+                "filename": "../outputs/3lines_2/logs/rf/run_0108_test",
                 "maxBytes": 10485760,
                 "backupCount": 20,
                 "encoding": "utf8"
