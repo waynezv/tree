@@ -92,8 +92,7 @@ ax1.axis('tight')
 ax1.tick_params(axis='both', which='major', labelsize=12)
 ax1.set_xlabel('x', fontsize=12)
 ax1.set_ylabel('y', fontsize=12)
-ax1.legend(('original', 'pred'),
-        loc='best', fontsize=11)
+ax1.legend(('original', 'pred'), loc='best', fontsize=11)
 plt.tight_layout()
 # plt.savefig('3lines_2_linear_train.pdf')
 
@@ -105,8 +104,7 @@ ax1.axis('tight')
 ax1.tick_params(axis='both', which='major', labelsize=12)
 ax1.set_xlabel('x', fontsize=12)
 ax1.set_ylabel('y', fontsize=12)
-ax1.legend(('original', 'pred'),
-        loc='best', fontsize=11)
+ax1.legend(('original', 'pred'), loc='best', fontsize=11)
 plt.tight_layout()
 # plt.savefig('3lines_2_linear_test.pdf')
 

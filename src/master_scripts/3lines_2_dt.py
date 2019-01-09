@@ -57,7 +57,7 @@ X_test, Y_test = get_3lines_2_data(
     os.path.join(opts['path'], opts['test']['file'])
 )
 
-train_opts= args['train']['decision_tree']
+train_opts = args['train']['decision_tree']
 if train_opts['parameter_tuning'] is True:  # tuning
     from sklearn.model_selection import GridSearchCV
 
@@ -110,8 +110,7 @@ else:  # normal training
     ax1.tick_params(axis='both', which='major', labelsize=12)
     ax1.set_xlabel('x', fontsize=12)
     ax1.set_ylabel('y', fontsize=12)
-    ax1.legend(('original', 'pred'),
-            loc='best', fontsize=11)
+    ax1.legend(('original', 'pred'), loc='best', fontsize=11)
     plt.tight_layout()
     plt.savefig('3lines_2_dt_train.pdf')
 
@@ -123,8 +122,7 @@ else:  # normal training
     ax1.tick_params(axis='both', which='major', labelsize=12)
     ax1.set_xlabel('x', fontsize=12)
     ax1.set_ylabel('y', fontsize=12)
-    ax1.legend(('original', 'pred'),
-            loc='best', fontsize=11)
+    ax1.legend(('original', 'pred'), loc='best', fontsize=11)
     plt.tight_layout()
     plt.savefig('3lines_2_dt_test.pdf')
 
