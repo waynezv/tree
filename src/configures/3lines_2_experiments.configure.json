@@ -21,6 +21,23 @@
 
     "_comment": "Model",
     "beta": {
+        "random_seed": 1234,
+
+        "feature_dim": 1,
+        "t_low": -6.5,
+        "t_high": 7.5,
+        "t_step": 0.5,
+
+        "svm": {
+            "kernel": "rbf",
+            "gamma": 1,
+            "C": 10,
+            "epsilon": 0,
+            "shrinking": false,
+            "probability": true,
+            "random_state": 1234,
+            "tol": 0.001
+        }
     },
 
     "linear": {
@@ -147,15 +164,18 @@
         }
     },
 
+
     "_comment": "Testing",
-    "beta": {
+    "test": {
+        "beta": {
+        }
     },
 
 
     "_comment": "Log",
     "verbose": false,
     "log_dir": "../outputs/3lines_2/logs/rf",
-    "log_file": "run_0108_test",
+    "log_file": "run_0110_",
 
     "log": {
         "version": 1,
@@ -180,7 +200,7 @@
                 "class": "logging.handlers.RotatingFileHandler",
                 "level": "DEBUG",
                 "formatter": "custom",
-                "filename": "../outputs/3lines_2/logs/rf/run_0108_test",
+                "filename": "../outputs/3lines_2/logs/rf/run_0110_",
                 "maxBytes": 10485760,
                 "backupCount": 20,
                 "encoding": "utf8"
