@@ -1,0 +1,6 @@
+2019/01/12 15:11 - [main - <module>:46  ] - [INFO ] - Loading & preparing data
+2019/01/12 15:11 - [main - <module>:59  ] - [INFO ] - Initializing model
+2019/01/12 15:11 - [main - <module>:63  ] - [INFO ] - Training
+2019/01/12 15:11 - [main - grow    :196 ] - [DEBUG] - ==================================================
+2019/01/12 15:11 - [main - grow    :197 ] - [DEBUG] - grown a subtree
+2019/01/12 15:11 - [main - M_step  :324 ] - [DEBUG] - t: -6.5986
