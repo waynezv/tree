@@ -23,6 +23,7 @@
     "beta": {
         "random_seed": 1234,
 
+        "_comment": "tree structure",
         "feature_dim": 1,
         "t_low": -6.5,
         "t_high": 7.5,
@@ -32,6 +33,7 @@
         "min_samples_leaf": 10,
         "min_Q_increase": 0.1,
 
+        "_comment": "node expert",
         "svm": {
             "kernel": "rbf",
             "gamma": 1,
@@ -50,19 +52,32 @@
 
         "tuning_settings": {
             "param_grid": {
-                "kernel": ["linear", "poly", "rbf"],
-                "gamma": [0.01, 0.05, 0.1, 0.5, 1, 5, 10, 20, 50, 100],
-                "C": [0.01, 0.05, 0.1, 0.5, 1, 5, 10, 20, 50, 100],
-                "shrinking": [true, false]
+                "kernel": ["linear", "rbf"],
+                "gamma": [0.01, 0.1, 1, 10],
+                "C": [0.01, 0.1, 1, 10],
+                "shrinking": [true]
             },
 
             "cv": 3,
-            "scoring": ["neg_mean_absolute_error", "neg_mean_squared_error"],
+            "scoring": ["neg_mean_absolute_error"],
             "iid": false,
-            "n_jobs": 2,
-            "verbose": 1,
+            "n_jobs": 16,
+            "verbose": 0,
             "refit": "neg_mean_absolute_error",
             "return_train_score": false
+        },
+
+        "_comment": "leaf expert",
+        "linear":{
+        },
+
+        "svr": {
+            "kernel": "rbf",
+            "gamma": 1,
+            "C": 10,
+            "epsilon": 0,
+            "shrinking": false,
+            "tol": 0.001
         }
     },
 
