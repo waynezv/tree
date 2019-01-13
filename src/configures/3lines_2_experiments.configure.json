@@ -61,7 +61,7 @@
             "cv": 3,
             "scoring": ["neg_mean_absolute_error"],
             "iid": false,
-            "n_jobs": 16,
+            "n_jobs": 2,
             "verbose": 0,
             "refit": "neg_mean_absolute_error",
             "return_train_score": false
@@ -72,12 +72,36 @@
         },
 
         "svr": {
-            "kernel": "rbf",
-            "gamma": 1,
-            "C": 10,
-            "epsilon": 0,
-            "shrinking": false,
-            "tol": 0.001
+            "default": {
+                "kernel": "rbf",
+                "gamma": 1,
+                "C": 10,
+                "epsilon": 0,
+                "shrinking": false,
+                "tol": 0.001
+            },
+
+            "preset_model_params": {
+                "tol": 0.001
+            },
+
+            "tuning_settings": {
+                "param_grid": {
+                    "kernel": ["linear", "rbf"],
+                    "gamma": [0.01, 0.1, 1, 10],
+                    "C": [0.01, 0.1, 1, 10],
+                    "epsilon": [0, 0.1],
+                    "shrinking": [true, false]
+                },
+
+                "cv": 3,
+                "scoring": ["neg_mean_absolute_error"],
+                "iid": false,
+                "n_jobs": 2,
+                "verbose": 0,
+                "refit": "neg_mean_absolute_error",
+                "return_train_score": false
+            }
         }
     },
 

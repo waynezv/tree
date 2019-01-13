@@ -63,7 +63,7 @@ class Node():
             # self.sigma_best = None
 
             # self.regressor = LinearRegression()
-            self.regressor = SVR(**self.args['svr'])
+            self.regressor = SVR(**self.args['svr']['preset_model_params'])
             self.regressor_best = None
 
         # Initialize node conditional and criterion
@@ -578,7 +578,7 @@ class Tree():
         grid.fit(X, Y)
 
         self.logger.debug('-' * 25)
-        self.logger.debug('Best parameters: ')
+        self.logger.debug('Best SVC parameters: ')
         self.logger.debug(grid.best_params_)
 
         node.classifier = grid.best_estimator_  # NOTE: copy trained classifier
@@ -602,7 +602,20 @@ class Tree():
         # sigma = np.sum(np.square(Y - X.dot(W))) / (N - 2)
         # node.sigma = sigma
 
-        node.regressor.fit(X, Y)
+
+        # node.regressor.fit(X, Y)
+
+
+        svr = node.regressor
+
+        grid = GridSearchCV(svr, **self.args['svr']['tuning_settings'])
+        grid.fit(X, Y)
+
+        self.logger.debug('-' * 25)
+        self.logger.debug('Best SVR parameters: ')
+        self.logger.debug(grid.best_params_)
+
+        node.regressor = grid.best_estimator_
 
     # ========================================
     # def predict(self, X):
