@@ -61,7 +61,7 @@
             "cv": 3,
             "scoring": ["neg_mean_absolute_error"],
             "iid": false,
-            "n_jobs": 2,
+            "n_jobs": 32,
             "verbose": 0,
             "refit": "neg_mean_absolute_error",
             "return_train_score": false
@@ -97,7 +97,7 @@
                 "cv": 3,
                 "scoring": ["neg_mean_absolute_error"],
                 "iid": false,
-                "n_jobs": 2,
+                "n_jobs": 32,
                 "verbose": 0,
                 "refit": "neg_mean_absolute_error",
                 "return_train_score": false

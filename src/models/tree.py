@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from functools import reduce
 import numpy as np
 import scipy
 from sklearn.svm import SVC
@@ -62,8 +63,9 @@ class Node():
             # self.w_best = None
             # self.sigma_best = None
 
-            # self.regressor = LinearRegression()
-            self.regressor = SVR(**self.args['svr']['preset_model_params'])
+            self.regressor = LinearRegression()
+            # self.regressor = SVR(**self.args['svr']['default'])
+            # self.regressor = SVR(**self.args['svr']['preset_model_params'])
             self.regressor_best = None
 
         # Initialize node conditional and criterion
@@ -267,8 +269,8 @@ class Tree():
                 self.t_best_list.append(best_collection['t'])
 
                 # Store Q_best
-                self.Q_best_history.append(self.Q_best)
                 self.Q_best = Q_best
+                self.Q_best_history.append(Q_best)
 
                 # Store best node classifier
                 node.t_best = best_collection['t']
@@ -602,20 +604,15 @@ class Tree():
         # sigma = np.sum(np.square(Y - X.dot(W))) / (N - 2)
         # node.sigma = sigma
 
+        node.regressor.fit(X, Y)
 
-        # node.regressor.fit(X, Y)
-
-
-        svr = node.regressor
-
-        grid = GridSearchCV(svr, **self.args['svr']['tuning_settings'])
-        grid.fit(X, Y)
-
-        self.logger.debug('-' * 25)
-        self.logger.debug('Best SVR parameters: ')
-        self.logger.debug(grid.best_params_)
-
-        node.regressor = grid.best_estimator_
+        # svr = node.regressor
+        # grid = GridSearchCV(svr, **self.args['svr']['tuning_settings'])
+        # grid.fit(X, Y)
+        # self.logger.debug('-' * 25)
+        # self.logger.debug('Best SVR parameters: ')
+        # self.logger.debug(grid.best_params_)
+        # node.regressor = grid.best_estimator_
 
     # ========================================
     # def predict(self, X):
@@ -641,25 +638,30 @@ class Tree():
         # return np.array(Yh, dtype=float)
 
     def predict(self, X):
-        # Get all leaves
-        leaves = list(self.get_leaves(self.root))
+        '''
+        Compute E_q(z | x) [y | z, x] recursively.
+        '''
+        Ey_xz_list = []
 
-        # Compute E_q(z | x) [y | z, x]
-        #  = sum_k {(y_i | z_k, x_i) q(z_k | x_i)} for all i
-        Ey_xz = 0
-        for lk in leaves:
+        def _compute_Ey_xz(node, qz_x):
+            if node is not None:
+                if node.is_leaf:
+                    yh_xz_k = node.regressor_best.predict(X)
+                    Ey_xz_list.append(yh_xz_k * qz_x)
+                    return
 
-            # q(z->lk | x)
-            assert lk.regressor_best is not None, "No best regressor!"
-            qz_x_lk = lk.qz_x_best
+                assert node.children_count == 2, "Incomplete children!"
 
-            # (y_pred | x, z->lk)
-            yh_xz_lk = lk.regressor_best.predict(X)
+                proba = node.classifier_best.predict_proba(X)
+                qz_x_l = proba[:, 0]
+                qz_x_r = proba[:, 1]
 
-            # prediction
-            fh_x_lk = yh_xz_lk * qz_x_lk
+                _compute_Ey_xz(node.get_child_left(), qz_x * qz_x_l)
+                _compute_Ey_xz(node.get_child_right(), qz_x * qz_x_r)
 
-            Ey_xz += fh_x_lk
+        _compute_Ey_xz(self.root, self.root.qz_x_best)
+
+        Ey_xz = reduce(lambda x, y: x + y, Ey_xz_list)
 
         return Ey_xz
 

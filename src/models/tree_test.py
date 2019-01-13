@@ -8,6 +8,8 @@ import logging
 import logging.config
 import numpy as np
 from sklearn import metrics
+import matplotlib
+matplotlib.use('Agg')
 from matplotlib import pyplot as plt
 import pdb
 for path in [
@@ -62,15 +64,23 @@ tree = Tree(logger=logger, args=tree_opts)
 
 logger.info('Training')
 tree.train(X_train, Y_train)
+logger.info('=' * 50)
+logger.info('t_best:')
+logger.info(tree.t_best_list)
+logger.info('Q_best:')
+logger.info(tree.Q_best_history)
+logger.info('=' * 50)
+
 Yp_train = tree.predict(X_train)
-# Yp_test = tree.predict(X_test)
+Yp_test = tree.predict(X_test)
 mae_train = metrics.mean_absolute_error(Y_train, Yp_train)
 rmse_train = np.sqrt(metrics.mean_squared_error(Y_train, Yp_train))
-# mae_test = metrics.mean_absolute_error(Y_test, Yp_test)
-# rmse_test = np.sqrt(metrics.mean_squared_error(Y_test, Yp_test))
+mae_test = metrics.mean_absolute_error(Y_test, Yp_test)
+rmse_test = np.sqrt(metrics.mean_squared_error(Y_test, Yp_test))
 print('Train: ', mae_train, rmse_train)
-# print('Test: ', mae_test, rmse_test)
+print('Test: ', mae_test, rmse_test)
 
+pdb.set_trace()
 # Plot data
 fig = plt.figure(figsize=(6, 6))
 ax1 = fig.add_subplot(111)
@@ -84,16 +94,16 @@ ax1.legend(('original', 'pred'), loc='best', fontsize=11)
 plt.tight_layout()
 plt.savefig('3lines_2_tree_train.pdf')
 
-# fig = plt.figure(figsize=(6, 6))
-# ax1 = fig.add_subplot(111)
-# ax1.scatter(X_test, Y_test, s=2, c='b', marker='.')
-# ax1.scatter(X_test, Yp_test, s=2, c='r', marker='+')
-# ax1.axis('tight')
-# ax1.tick_params(axis='both', which='major', labelsize=12)
-# ax1.set_xlabel('x', fontsize=12)
-# ax1.set_ylabel('y', fontsize=12)
-# ax1.legend(('original', 'pred'), loc='best', fontsize=11)
-# plt.tight_layout()
-# plt.savefig('3lines_2_tree_test.pdf')
+fig = plt.figure(figsize=(6, 6))
+ax1 = fig.add_subplot(111)
+ax1.scatter(X_test, Y_test, s=2, c='b', marker='.')
+ax1.scatter(X_test, Yp_test, s=2, c='r', marker='+')
+ax1.axis('tight')
+ax1.tick_params(axis='both', which='major', labelsize=12)
+ax1.set_xlabel('x', fontsize=12)
+ax1.set_ylabel('y', fontsize=12)
+ax1.legend(('original', 'pred'), loc='best', fontsize=11)
+plt.tight_layout()
+plt.savefig('3lines_2_tree_test.pdf')
 
 pdb.set_trace()

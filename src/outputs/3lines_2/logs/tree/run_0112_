@@ -1,13 +1,433 @@
-2019/01/13 00:50 - [main - <module>:46  ] - [INFO ] - Loading & preparing data
-2019/01/13 00:50 - [main - <module>:59  ] - [INFO ] - Initializing model
-2019/01/13 00:50 - [main - <module>:63  ] - [INFO ] - Training
-2019/01/13 00:50 - [main - grow    :244 ] - [DEBUG] - ==================================================
-2019/01/13 00:50 - [main - grow    :245 ] - [DEBUG] - grown a subtree
-2019/01/13 00:50 - [main - EM_step :464 ] - [DEBUG] - --------------------------------------------------
-2019/01/13 00:50 - [main - EM_step :465 ] - [DEBUG] - t: -6.5986
-2019/01/13 00:50 - [main - train_sv:580 ] - [DEBUG] - -------------------------
-2019/01/13 00:50 - [main - train_sv:581 ] - [DEBUG] - Best SVC parameters: 
-2019/01/13 00:50 - [main - train_sv:582 ] - [DEBUG] - {'C': 0.01, 'gamma': 0.01, 'kernel': 'linear', 'shrinking': True}
-2019/01/13 00:50 - [main - train_le:614 ] - [DEBUG] - -------------------------
-2019/01/13 00:50 - [main - train_le:615 ] - [DEBUG] - Best SVR parameters: 
-2019/01/13 00:50 - [main - train_le:616 ] - [DEBUG] - {'C': 1, 'epsilon': 0, 'gamma': 10, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:47 - [main - <module>:48  ] - [INFO ] - Loading & preparing data
+2019/01/13 19:47 - [main - <module>:61  ] - [INFO ] - Initializing model
+2019/01/13 19:47 - [main - <module>:65  ] - [INFO ] - Training
+2019/01/13 19:47 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:47 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:47 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:47 - [main - EM_step :467 ] - [DEBUG] - t: -6.5986
+2019/01/13 19:47 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:47 - [main - train_sv:584 ] - [DEBUG] - {'C': 0.01, 'gamma': 0.01, 'kernel': 'linear', 'shrinking': True}
+2019/01/13 19:47 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - EM_step :482 ] - [DEBUG] - Q: -3.1810  Q_best -1000000000.0000
+2019/01/13 19:47 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:47 - [main - EM_step :467 ] - [DEBUG] - t: -5.5986
+2019/01/13 19:47 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:47 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:47 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - EM_step :482 ] - [DEBUG] - Q: -3.0830  Q_best -3.1810
+2019/01/13 19:47 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:47 - [main - EM_step :467 ] - [DEBUG] - t: -4.5986
+2019/01/13 19:47 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:47 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:47 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - EM_step :482 ] - [DEBUG] - Q: -3.0497  Q_best -3.0830
+2019/01/13 19:47 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:47 - [main - EM_step :467 ] - [DEBUG] - t: -3.5986
+2019/01/13 19:47 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:47 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:47 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - EM_step :482 ] - [DEBUG] - Q: -3.0416  Q_best -3.0497
+2019/01/13 19:47 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:47 - [main - EM_step :467 ] - [DEBUG] - t: -2.5986
+2019/01/13 19:47 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:47 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 0.1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:47 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - EM_step :482 ] - [DEBUG] - Q: -2.7382  Q_best -3.0416
+2019/01/13 19:47 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:47 - [main - EM_step :467 ] - [DEBUG] - t: -1.5986
+2019/01/13 19:47 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:47 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:47 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - EM_step :482 ] - [DEBUG] - Q: -2.7417  Q_best -2.7382
+2019/01/13 19:47 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:47 - [main - EM_step :467 ] - [DEBUG] - t: -0.5986
+2019/01/13 19:47 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:47 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:47 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:47 - [main - EM_step :482 ] - [DEBUG] - Q: -2.8072  Q_best -2.7382
+2019/01/13 19:47 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:47 - [main - EM_step :467 ] - [DEBUG] - t: 0.4014
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:48 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - EM_step :482 ] - [DEBUG] - Q: -2.7280  Q_best -2.7382
+2019/01/13 19:48 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:48 - [main - EM_step :467 ] - [DEBUG] - t: 1.4014
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:48 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - EM_step :482 ] - [DEBUG] - Q: -2.5273  Q_best -2.7280
+2019/01/13 19:48 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:48 - [main - EM_step :467 ] - [DEBUG] - t: 2.4014
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 0.01, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:48 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - EM_step :482 ] - [DEBUG] - Q: -2.4272  Q_best -2.5273
+2019/01/13 19:48 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:48 - [main - EM_step :467 ] - [DEBUG] - t: 3.4014
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 10, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:48 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - EM_step :482 ] - [DEBUG] - Q: -2.6059  Q_best -2.4272
+2019/01/13 19:48 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:48 - [main - EM_step :467 ] - [DEBUG] - t: 4.4014
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:48 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - EM_step :482 ] - [DEBUG] - Q: -2.7010  Q_best -2.4272
+2019/01/13 19:48 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:48 - [main - EM_step :467 ] - [DEBUG] - t: 5.4014
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 10, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:48 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - EM_step :482 ] - [DEBUG] - Q: -3.0742  Q_best -2.4272
+2019/01/13 19:48 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:48 - [main - EM_step :467 ] - [DEBUG] - t: 6.4014
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 0.1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:48 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - EM_step :482 ] - [DEBUG] - Q: -3.1868  Q_best -2.4272
+2019/01/13 19:48 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:48 - [main - EM_step :467 ] - [DEBUG] - t: 7.4014
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 0.01, 'gamma': 0.01, 'kernel': 'linear', 'shrinking': True}
+2019/01/13 19:48 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - EM_step :482 ] - [DEBUG] - Q: -3.1936  Q_best -2.4272
+2019/01/13 19:48 - [main - grow    :257 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - grow    :259 ] - [DEBUG] - Re-train with best t: 2.4014
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 0.01, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:48 - [main - grow    :262 ] - [DEBUG] - Q: -2.4272  Q_best -2.4272
+2019/01/13 19:48 - [main - grow    :263 ] - [DEBUG] - **************************************************
+2019/01/13 19:48 - [main - grow    :264 ] - [DEBUG] - subtree saw improvement
+2019/01/13 19:48 - [main - grow    :266 ] - [DEBUG] - t_best: 2.4014  Q_best: -2.4272
+2019/01/13 19:48 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:48 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:48 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:48 - [main - EM_step :467 ] - [DEBUG] - t: -6.5986
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 10, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:48 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - EM_step :482 ] - [DEBUG] - Q: -2.4283  Q_best -2.4272
+2019/01/13 19:48 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:48 - [main - EM_step :467 ] - [DEBUG] - t: -5.5986
+2019/01/13 19:48 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:48 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 10, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:48 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:48 - [main - EM_step :482 ] - [DEBUG] - Q: -2.3659  Q_best -2.4272
+2019/01/13 19:48 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:48 - [main - EM_step :467 ] - [DEBUG] - t: -4.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.3163  Q_best -2.3659
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: -3.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2778  Q_best -2.3163
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: -2.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2355  Q_best -2.2778
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: -1.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2892  Q_best -2.2355
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: -0.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.3568  Q_best -2.2355
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 0.4014
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.4243  Q_best -2.2355
+2019/01/13 19:49 - [main - grow    :257 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - grow    :259 ] - [DEBUG] - Re-train with best t: -2.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - grow    :262 ] - [DEBUG] - Q: -2.2355  Q_best -2.2355
+2019/01/13 19:49 - [main - grow    :263 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :264 ] - [DEBUG] - subtree saw improvement
+2019/01/13 19:49 - [main - grow    :266 ] - [DEBUG] - t_best: -2.5986  Q_best: -2.2355
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: -6.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2459  Q_best -2.2355
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: -5.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2341  Q_best -2.2355
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: -4.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2130  Q_best -2.2341
+2019/01/13 19:49 - [main - grow    :257 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - grow    :259 ] - [DEBUG] - Re-train with best t: -4.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - grow    :262 ] - [DEBUG] - Q: -2.2130  Q_best -2.2130
+2019/01/13 19:49 - [main - grow    :263 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :264 ] - [DEBUG] - subtree saw improvement
+2019/01/13 19:49 - [main - grow    :266 ] - [DEBUG] - t_best: -4.5986  Q_best: -2.2130
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: -6.5986
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2221  Q_best -2.2130
+2019/01/13 19:49 - [main - grow    :304 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :305 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - grow    :304 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :305 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: -1.5984
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2162  Q_best -2.2130
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: -0.5984
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2061  Q_best -2.2130
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 0.4016
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2275  Q_best -2.2061
+2019/01/13 19:49 - [main - grow    :257 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - grow    :259 ] - [DEBUG] - Re-train with best t: -0.5984
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - grow    :262 ] - [DEBUG] - Q: -2.2061  Q_best -2.2061
+2019/01/13 19:49 - [main - grow    :263 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :264 ] - [DEBUG] - subtree saw improvement
+2019/01/13 19:49 - [main - grow    :266 ] - [DEBUG] - t_best: -0.5984  Q_best: -2.2061
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - grow    :304 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :305 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 0.4030
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 10, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2210  Q_best -2.2061
+2019/01/13 19:49 - [main - grow    :304 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :305 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 3.4066
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 10, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.1649  Q_best -2.2061
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 4.4066
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.1748  Q_best -2.1649
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 5.4066
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2093  Q_best -2.1649
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 6.4066
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2603  Q_best -2.1649
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 7.4066
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2839  Q_best -2.1649
+2019/01/13 19:49 - [main - grow    :257 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - grow    :259 ] - [DEBUG] - Re-train with best t: 3.4066
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 10, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - grow    :262 ] - [DEBUG] - Q: -2.1649  Q_best -2.1649
+2019/01/13 19:49 - [main - grow    :263 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :264 ] - [DEBUG] - subtree saw improvement
+2019/01/13 19:49 - [main - grow    :266 ] - [DEBUG] - t_best: 3.4066  Q_best: -2.1649
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - grow    :304 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :305 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 4.4123
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.1596  Q_best -2.1649
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 5.4123
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.1808  Q_best -2.1596
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 6.4123
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2163  Q_best -2.1596
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 7.4123
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2389  Q_best -2.1596
+2019/01/13 19:49 - [main - grow    :257 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - grow    :259 ] - [DEBUG] - Re-train with best t: 4.4123
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - grow    :262 ] - [DEBUG] - Q: -2.1596  Q_best -2.1596
+2019/01/13 19:49 - [main - grow    :263 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :264 ] - [DEBUG] - subtree saw improvement
+2019/01/13 19:49 - [main - grow    :266 ] - [DEBUG] - t_best: 4.4123  Q_best: -2.1596
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - grow    :304 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :305 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 5.4136
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.1539  Q_best -2.1596
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 6.4136
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 0.1, 'gamma': 10, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2014  Q_best -2.1539
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 7.4136
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 10, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.2098  Q_best -2.1539
+2019/01/13 19:49 - [main - grow    :257 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - grow    :259 ] - [DEBUG] - Re-train with best t: 5.4136
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 10, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - grow    :262 ] - [DEBUG] - Q: -2.1539  Q_best -2.1539
+2019/01/13 19:49 - [main - grow    :263 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :264 ] - [DEBUG] - subtree saw improvement
+2019/01/13 19:49 - [main - grow    :266 ] - [DEBUG] - t_best: 5.4136  Q_best: -2.1539
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - grow    :304 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :305 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/13 19:49 - [main - grow    :246 ] - [DEBUG] - ==================================================
+2019/01/13 19:49 - [main - grow    :247 ] - [DEBUG] - grown a subtree
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 6.4212
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.1840  Q_best -2.1539
+2019/01/13 19:49 - [main - EM_step :466 ] - [DEBUG] - --------------------------------------------------
+2019/01/13 19:49 - [main - EM_step :467 ] - [DEBUG] - t: 7.4212
+2019/01/13 19:49 - [main - train_sv:582 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - train_sv:583 ] - [DEBUG] - Best SVC parameters: 
+2019/01/13 19:49 - [main - train_sv:584 ] - [DEBUG] - {'C': 1, 'gamma': 1, 'kernel': 'rbf', 'shrinking': True}
+2019/01/13 19:49 - [main - EM_step :480 ] - [DEBUG] - -------------------------
+2019/01/13 19:49 - [main - EM_step :482 ] - [DEBUG] - Q: -2.1907  Q_best -2.1539
+2019/01/13 19:49 - [main - grow    :304 ] - [DEBUG] - **************************************************
+2019/01/13 19:49 - [main - grow    :305 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/13 19:49 - [main - <module>:67  ] - [INFO ] - ==================================================
+2019/01/13 19:49 - [main - <module>:68  ] - [INFO ] - t_best:
+2019/01/13 19:49 - [main - <module>:69  ] - [INFO ] - [2.401419990425354, -2.598580009574646, -4.598580009574646, -0.5983729818621493, 3.406583582891623, 4.412341938230514, 5.413599033124161]
+2019/01/13 19:49 - [main - <module>:70  ] - [INFO ] - Q_best:
+2019/01/13 19:49 - [main - <module>:71  ] - [INFO ] - [-2.4271932526939493, -2.2354660786599947, -2.213014088697645, -2.206124738182298, -2.1649246375462576, -2.1595520713445784, -2.153864879611766]
+2019/01/13 19:49 - [main - <module>:72  ] - [INFO ] - ==================================================
