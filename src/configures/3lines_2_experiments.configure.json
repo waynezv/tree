@@ -35,36 +35,38 @@
 
         "_comment": "node expert",
         "svm": {
-            "kernel": "rbf",
-            "gamma": 1,
-            "C": 10,
-            "shrinking": false,
-            "probability": true,
-            "random_state": 1234,
-            "tol": 0.001
-        },
-
-        "preset_model_params": {
-            "probability": true,
-            "random_state": 1234,
-            "tol": 0.001
-        },
-
-        "tuning_settings": {
-            "param_grid": {
-                "kernel": ["linear", "rbf"],
-                "gamma": [0.01, 0.1, 1, 10],
-                "C": [0.01, 0.1, 1, 10],
-                "shrinking": [true]
+            "default": {
+                "kernel": "rbf",
+                "gamma": 1,
+                "C": 10,
+                "shrinking": false,
+                "probability": true,
+                "random_state": 1234,
+                "tol": 0.001
             },
 
-            "cv": 3,
-            "scoring": ["neg_mean_absolute_error"],
-            "iid": false,
-            "n_jobs": 32,
-            "verbose": 0,
-            "refit": "neg_mean_absolute_error",
-            "return_train_score": false
+            "preset_model_params": {
+                "probability": true,
+                "random_state": 1234,
+                "tol": 0.001
+            },
+
+            "tuning_settings": {
+                "param_grid": {
+                    "kernel": ["linear", "rbf"],
+                    "gamma": [0.01, 0.1, 1, 10],
+                    "C": [0.01, 0.1, 1, 10],
+                    "shrinking": [true]
+                },
+
+                "cv": 3,
+                "scoring": ["neg_mean_absolute_error"],
+                "iid": false,
+                "n_jobs": 32,
+                "verbose": 0,
+                "refit": "neg_mean_absolute_error",
+                "return_train_score": false
+            }
         },
 
         "_comment": "leaf expert",

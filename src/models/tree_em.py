@@ -5,8 +5,6 @@ from functools import reduce
 import numpy as np
 import scipy
 from sklearn.svm import SVC
-from sklearn.linear_model import LinearRegression
-from sklearn.svm import SVR
 from sklearn.model_selection import GridSearchCV
 import pdb
 
@@ -20,6 +18,8 @@ class Node():
         self.args = args
 
         np.random.seed(self.args['random_seed'])
+
+        self.feature_dim = self.args['feature_dim']
 
         self.is_root = is_root
         self.is_leaf = is_leaf
@@ -55,19 +55,23 @@ class Node():
             self.t_best = None
 
         else:  # leaf node
-            self.regressor = LinearRegression()
-            # self.regressor = SVR(**self.args['svr']['default'])
-            # self.regressor = SVR(**self.args['svr']['preset_model_params'])
-            self.regressor_best = None
+            # NOTE: include bias
+            self.w = np.random.standard_normal((self.feature_dim + 1,))
+            # NOTE: no-correlation
+            self.sigma = np.random.uniform(0, 1)
+            self.w_best = None
+            self.sigma_best = None
 
         # Initialize node conditional and criterion
         if self.is_root:  # root
             self.qz_x_best = 1.  # q(z->current node | x), best
             self.qz_x = None  # current
+            self.pz_x = None  # actual p(z->current node | x)
 
         else:  # non-root
             self.qz_x_best = None
             self.qz_x = None
+            self.pz_x = None
 
     def convert_leaf2nonleaf(self):
         '''
@@ -140,6 +144,7 @@ class Tree():
         self.root = self.create_root()  # create root
         self.nodes.append(self.root)
 
+        self.t_current = None  # current t value
         self.t_best_list = []  # collection of best node thresholds
         self.Q_best = -1e9  # best Q of current tree
         self.Q_best_history = []  # collection of best Qs
@@ -280,8 +285,10 @@ class Tree():
                 node.classifier_best = node.classifier
 
                 # Store best leaf regressor
-                node_left.regressor_best = node_left.regressor
-                node_right.regressor_best = node_right.regressor
+                node_left.w_best = node_left.w
+                node_left.sigma_best = node_left.sigma
+                node_right.w_best = node_right.w
+                node_right.sigma_best = node_right.sigma
 
                 # Store best node conditional
                 node_left.qz_x_best = node_left.qz_x
@@ -296,7 +303,6 @@ class Tree():
                 self.grow(X_new, Y_new, nodes_per_level_new)
 
             else:  # no improvement with this subtree
-                # pdb.set_trace()
                 node.convert_nonleaf2leaf()  # convert back to leaf
 
                 del self.nodes[-1]  # delete subtree
@@ -334,6 +340,8 @@ class Tree():
         for t in t_grid:
             self.logger.debug('-' * 50)
             self.logger.debug('t: {:.4f}'.format(t))
+
+            self.t_current = t
 
             # Process data
             data_left, data_right = self._split_data(X, Y, t)
@@ -380,6 +388,10 @@ class Tree():
         node_left.qz_x = qz_x_left
         node_right.qz_x = qz_x_right
 
+        pz_x_left, pz_x_right = self._infer_Pz_x(Y)
+        node_left.pz_x = pz_x_left
+        node_right.pz_x = pz_x_right
+
         # Train regressor
         self.train_leaf(node_left, *data_left)
         self.train_leaf(node_right, *data_right)
@@ -411,49 +423,54 @@ class Tree():
         '''
         Train leaf.
         '''
+        # TODO: N >> D, non-invertible case?
         assert node.is_leaf is True, "Error: non-leaf node!"
 
-        node.regressor.fit(X, Y)
+        X = self._add_ones(X)
 
-        # svr = node.regressor
-        # grid = GridSearchCV(svr, **self.args['svr']['tuning_settings'])
-        # grid.fit(X, Y)
-        # self.logger.debug('-' * 25)
-        # self.logger.debug('Best SVR parameters: ')
-        # self.logger.debug(grid.best_params_)
-        # node.regressor = grid.best_estimator_
+        W = np.dot(
+            np.dot(np.linalg.inv(np.dot(X.transpose(), X)),
+                   X.transpose()),
+            Y)
+        node.w = W
+
+        N = len(Y)
+        sigma = np.sum(np.square(Y - X.dot(W))) / (N - 2)
+        node.sigma = sigma
 
     def evaluate_Q(self):
+        '''
+        Eveluate Q criterion.
+        '''
         # Get all original data
         Xo, Yo = self.data
 
         # Get all leaves
         leaves = list(self.get_leaves(self.root))
 
-        # Compute E_q(z | x) [y | z, x]
-        #  = sum_k {(y_i | z_k, x_i) q(z_k | x_i)} for all i
-        Ey_xz = 0
+        # Compute ELBO Q
+        Q = 0
         for lk in leaves:
             # q(z->lk | x)
             if lk.qz_x_best is not None:  # use optimized conditional
-                assert lk.regressor_best is not None, "No best regressor!"
+                assert lk.w_best is not None, "No best w!"
                 qz_x_lk = lk.qz_x_best
             else:
                 qz_x_lk = lk.qz_x
 
-            # (y_pred | x, z->lk)
-            if lk.regressor_best is not None:  # use optimized regressor
-                yh_xz_lk = lk.regressor_best.predict(Xo)
-            else:
-                yh_xz_lk = lk.regressor.predict(Xo)
+            # p(z->lk | x)
+            pz_x_lk = lk.pz_x
 
-            # prediction
-            fh_x_lk = yh_xz_lk * qz_x_lk
+            # p(y | x, z->lk)
+            py_xz_lk = self._infer_Py_xz(lk, Xo, Yo)
 
-            Ey_xz += fh_x_lk
+            # Qk
+            Qk = qz_x_lk * (np.log(pz_x_lk * py_xz_lk + 1e-9) -
+                            np.log(qz_x_lk + 1e-9))
+            Q += Qk
 
-        # Sum  NOTE: negative to get score
-        Q = -np.mean(np.abs(Yo - Ey_xz))
+        # Sum
+        Q = np.sum(Q)
 
         return Q
 
@@ -467,6 +484,40 @@ class Tree():
         qz_x_right = probs[:, 1]
 
         return qz_x_left, qz_x_right
+
+    def _infer_Pz_x(self, Y):
+        '''
+        Compute p(z=1 | x, t) and p(z=0 | x, t).
+
+        NOTE: using global approximation
+        '''
+        n_le = np.count_nonzero(Y <= self.t_current)
+        n_gt = np.count_nonzero(Y > self.t_current)
+
+        pz_x_left = n_le / float(self.num_samples)
+        pz_x_right = n_gt / float(self.num_samples)
+
+        return pz_x_left, pz_x_right
+
+    def _infer_Py_xz(self, node, X, Y):
+        '''
+        Compute p(y | x, z).
+        '''
+        X = self._add_ones(X)
+
+        if node.w_best is not None:
+            W = node.w_best
+            S = node.sigma_best
+        else:
+            W = node.w
+            S = node.sigma
+
+        mu = np.dot(X, W)
+        std = np.ones(mu.shape) * np.sqrt(S)
+
+        py_xz = scipy.stats.norm(mu, std).pdf(Y)
+
+        return py_xz
 
     def _retrain_t(self, t, X, Y,
                    node, node_left, node_right):
@@ -533,7 +584,11 @@ class Tree():
 
     # ========================================
     def predict_hard(self, X):
+        '''
+        Predict Y with hard assignment.
+        '''
         Yh = []
+
         for x in X:
             x = x.reshape(-1, 1)
 
@@ -548,7 +603,9 @@ class Tree():
                     node = node.children[1]
 
             # Predict
-            yh = node.regressor_best.predict(x)
+            x = self._add_ones(x)
+            yh = np.dot(x, node.w_best)
+
             Yh.append(yh)
 
         return np.array(Yh, dtype=float)
@@ -562,7 +619,8 @@ class Tree():
         def _compute_Ey_xz(node, qz_x):
             if node is not None:
                 if node.is_leaf:
-                    yh_xz_k = node.regressor_best.predict(X)
+                    X1 = self._add_ones(X)
+                    yh_xz_k = np.dot(X1, node.w_best)
 
                     Ey_xz_list.append(yh_xz_k * qz_x)
                     return

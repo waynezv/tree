@@ -33,6 +33,8 @@ if len(sys.argv) < 2:
 with open(sys.argv[1], 'r') as f:
     args = json.load(f)
 
+np.random.seed(args['random_seed'])
+
 # Log
 if not os.path.exists(args['log_dir']):
     os.makedirs(args['log_dir'])
@@ -58,10 +60,12 @@ if X_train.ndim < 2:
     X_train = X_train.reshape(-1, 1)
     X_test = X_test.reshape(-1, 1)
 
+# Model
 logger.info('Initializing model')
 tree_opts = args['beta']
 tree = Tree(logger=logger, args=tree_opts)
 
+# Train
 logger.info('Training')
 tree.train(X_train, Y_train)
 logger.info('=' * 50)
@@ -69,18 +73,26 @@ logger.info('t_best:')
 logger.info(tree.t_best_list)
 logger.info('Q_best:')
 logger.info(tree.Q_best_history)
-logger.info('=' * 50)
 
+# Test
+logger.info('Testing')
 Yp_train = tree.predict(X_train)
 Yp_test = tree.predict(X_test)
+#  Yp_train = tree.predict_hard(X_train)
+#  Yp_test = tree.predict_hard(X_test)
+
+# Metrics
 mae_train = metrics.mean_absolute_error(Y_train, Yp_train)
 rmse_train = np.sqrt(metrics.mean_squared_error(Y_train, Yp_train))
 mae_test = metrics.mean_absolute_error(Y_test, Yp_test)
 rmse_test = np.sqrt(metrics.mean_squared_error(Y_test, Yp_test))
-print('Train: ', mae_train, rmse_train)
-print('Test: ', mae_test, rmse_test)
 
-pdb.set_trace()
+logger.info('*' * 50)
+logger.info('Train MAE = {:.4f}  RMSE = {:.4f}'.
+            format(mae_train, rmse_train))
+logger.info('Test MAE = {:.4f}  RMSE = {:.4f}'.
+            format(mae_test, rmse_test))
+
 # Plot data
 fig = plt.figure(figsize=(6, 6))
 ax1 = fig.add_subplot(111)
@@ -106,4 +118,6 @@ ax1.legend(('original', 'pred'), loc='best', fontsize=11)
 plt.tight_layout()
 plt.savefig('3lines_2_tree_test.pdf')
 
-pdb.set_trace()
+logger.info('=' * 50)
+logger.info('Parameters & settings')
+logger.info(args)
