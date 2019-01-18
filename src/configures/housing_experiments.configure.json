@@ -1,0 +1,340 @@
+{
+    "_comment": "General",
+    "random_seed": 1234,
+
+
+    "_comment": "==============================",
+    "_comment": "Data",
+    "housing": {
+        "path": "../../data/housing",
+        "file": "housing_scale.txt",
+        "num_load": null,
+        "test_size": 0.3,
+        "random_state": 1234
+    },
+
+
+    "_comment": "==============================",
+    "_comment": "Model",
+    "beta": {
+        "random_seed": 1234,
+
+        "_comment": "-------------------------",
+        "_comment": "tree structure",
+        "feature_dim": 8,
+        "t_step": 1,
+        "max_depth": 5,
+        "min_samples_split": 20,
+        "min_samples_leaf": 20,
+        "min_Q_increase": 0.1,
+
+        "node_expert": {
+            "expert" : "svm",
+            "tune": false
+        },
+
+        "leaf_expert": {
+            "expert" : "svr",
+            "tune": false
+        },
+
+        "Q": "neg_mse",
+
+        "_comment": "-------------------------",
+        "prediction": "soft",
+
+        "_comment": "-------------------------",
+        "_comment": "node expert",
+        "svm": {
+            "default": {
+                "kernel": "rbf",
+                "gamma": "scale",
+                "C": 100,
+                "shrinking": true,
+                "probability": true,
+                "random_state": 1234,
+                "tol": 0.001,
+                "cache_size": 1024
+            },
+
+            "preset_model_params": {
+                "probability": true,
+                "random_state": 1234,
+                "tol": 0.001,
+                "cache_size": 1024
+            },
+
+            "tuning_settings": {
+                "param_grid": {
+                    "kernel": ["rbf"],
+                    "gamma": ["scale"],
+                    "C": [100],
+                    "shrinking": [true]
+                },
+
+                "cv": 3,
+                "scoring": "balanced_accuracy",
+                "iid": false,
+                "n_jobs": 16,
+                "verbose": 0,
+                "refit": true,
+                "return_train_score": false
+            }
+        },
+
+        "_comment": "--------------------",
+        "_comment": "leaf expert",
+        "linear": {
+        },
+
+        "svr": {
+            "default": {
+                "kernel": "rbf",
+                "gamma": "scale",
+                "C": 100,
+                "epsilon": 0.9,
+                "shrinking": true,
+                "tol": 0.001,
+                "cache_size": 1024
+            },
+
+            "preset_model_params": {
+                "tol": 0.001,
+                "cache_size": 1024
+            },
+
+            "tuning_settings": {
+                "param_grid": {
+                    "kernel": ["linear", "rbf"],
+                    "gamma": [0.01, 0.1, 1, 10, 100],
+                    "C": [0.01, 0.1, 1, 10, 100],
+                    "epsilon": [0, 0.1],
+                    "shrinking": [true]
+                },
+
+                "cv": 3,
+                "scoring": "neg_mean_absolute_error",
+                "iid": false,
+                "n_jobs": 16,
+                "verbose": 0,
+                "refit": true,
+                "return_train_score": false
+            }
+        }
+    },
+
+
+    "_comment": "==============================",
+    "_comment": "Other models (tuned)",
+    "_comment": "-----------------------------",
+    "linear": {
+        "fit_intercept": true,
+        "normalize": false
+    },
+
+    "_comment": "-----------------------------",
+    "svr": {
+        "kernel": "rbf",
+        "gamma": 0.1,
+        "C": 100,
+        "epsilon": 0,
+        "shrinking": false,
+        "tol": 0.001
+    },
+
+    "_comment": "-----------------------------",
+    "decision_tree": {
+        "criterion": "mae",
+        "splitter": "best",
+        "max_depth": 2,
+        "max_leaf_nodes": null,
+        "max_features": null,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "min_impurity_decrease": 0,
+        "random_state": 1234,
+        "presort": false
+    },
+
+    "_comment": "-----------------------------",
+    "random_forest": {
+        "n_estimators": 100,
+        "criterion": "mse",
+        "max_depth": null,
+        "max_leaf_nodes": null,
+        "max_features": null,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "min_impurity_decrease": 0,
+        "bootstrap": true,
+        "n_jobs": 1,
+        "random_state": 1234,
+        "verbose": 0
+    },
+
+    "_comment": "-----------------------------",
+    "gaussian_process": {
+    },
+
+
+    "_comment": "==============================",
+    "_comment": "Training",
+    "train":{
+        "_comment": "-------------------------",
+        "beta": {
+        },
+
+
+        "_comment": "-------------------------",
+        "svr": {
+            "parameter_tuning": true,
+
+            "preset_model_params": {
+                "tol": 0.001
+            },
+
+            "tuning_settings": {
+                "param_grid": {
+                    "kernel": ["linear", "rbf"],
+                    "C": [0.01, 0.1, 1, 10, 100],
+                    "gamma":[0.01, 0.1, 1, 10, 100],
+                    "epsilon": [0, 0.1],
+                    "shrinking": [true, false]
+                },
+
+                "cv": 3,
+                "scoring": "neg_mean_squared_error",
+                "iid": false,
+                "n_jobs": 4,
+                "verbose": 1,
+                "refit": true,
+                "return_train_score": false
+            }
+        },
+
+
+        "_comment": "-------------------------",
+        "decision_tree": {
+            "parameter_tuning": false,
+
+            "preset_model_params": {
+                "splitter": "best",
+                "random_state": 1234,
+                "presort": false
+            },
+
+            "tuning_settings": {
+                "param_grid": {
+                    "criterion": ["mse", "mae"],
+                    "max_depth": [2, 4, 6, null],
+                    "max_leaf_nodes": [null],
+                    "max_features": [null],
+                    "min_samples_split": [2, 4, 6],
+                    "min_samples_leaf": [1, 2, 3, 4, 5],
+                    "min_impurity_decrease": [0]
+                },
+
+                "cv": 3,
+                "scoring": "neg_mean_squared_error",
+                "iid": false,
+                "n_jobs": 16,
+                "verbose": 1,
+                "refit": true,
+                "return_train_score": false
+            }
+        },
+
+
+        "_comment": "-------------------------",
+        "random_forest": {
+            "parameter_tuning": true,
+
+            "preset_model_params": {
+                "random_state": 1234,
+                "n_jobs": 1,
+                "verbose": 0
+            },
+
+            "tuning_settings": {
+                "param_grid": {
+                    "n_estimators": [10, 20, 30, 50, 100],
+                    "criterion": ["mse", "mae"],
+                    "max_depth": [2, 4, 6, null],
+                    "max_leaf_nodes": [null],
+                    "max_features": [null],
+                    "min_samples_split": [2, 4, 6],
+                    "min_samples_leaf": [1, 2, 3, 4, 5],
+                    "min_impurity_decrease": [0],
+                    "bootstrap": [true]
+                },
+
+                "cv": 3,
+                "scoring": "neg_mean_squared_error",
+                "iid": false,
+                "n_jobs": 16,
+                "verbose": 1,
+                "refit": true,
+                "return_train_score": false
+            }
+        }
+    },
+
+
+    "_comment": "==============================",
+    "_comment": "Testing",
+    "test": {
+        "beta": {
+        }
+    },
+
+
+    "_comment": "==============================",
+    "_comment": "Log",
+    "verbose": false,
+    "log_dir": "../outputs/housing/logs/svr",
+    "log_file": "run_0117_tune",
+
+    "log": {
+        "version": 1,
+        "disable_existing_loggers": false,
+
+        "formatters": {
+            "custom": {
+                "format": "%(asctime)s - [%(name)s - %(funcName)-8.8s:%(lineno)-4d] - [%(levelname)-5.5s] - %(message)s",
+                "datefmt": "%Y/%m/%d %H:%M"
+            }
+        },
+
+        "handlers": {
+            "console": {
+                "class": "logging.StreamHandler",
+                "level": "DEBUG",
+                "formatter": "custom",
+                "stream": "ext://sys.stdout"
+            },
+
+            "file": {
+                "class": "logging.handlers.RotatingFileHandler",
+                "level": "DEBUG",
+                "formatter": "custom",
+                "filename": "../outputs/housing/logs/svr/run_0117_tune",
+                "maxBytes": 10485760,
+                "backupCount": 20,
+                "encoding": "utf8"
+            }
+        },
+
+        "loggers": {
+            "main": {
+                "level": "DEBUG",
+                "handlers": ["console", "file"],
+                "propagate": false
+            }
+        },
+
+        "root": {
+            "level": "DEBUG",
+            "handlers": []
+        }
+    }
+}

@@ -48,16 +48,27 @@ class Node():
 
         # Initialize node-expert depending on is_leaf or not
         if not self.is_leaf:  # non-leaf node
-            #  self.classifier = SVC(**self.args['svm']['default'])
-            self.classifier = SVC(**self.args['svm']['preset_model_params'])
+            if self.args['node_expert']['expert'] == 'svm':
+                if self.args['node_expert']['tune'] is True:
+                    self.classifier = SVC(**self.args['svm']['preset_model_params'])
+                else:
+                    self.classifier = SVC(**self.args['svm']['default'])
+            else:
+                self.logger.error('Non-SVM node expert not implemented!')
+                raise NotImplementedError("Non-SVM node expert not implemented!")
 
             self.classifier_best = None
             self.t_best = None
 
         else:  # leaf node
-            self.regressor = LinearRegression()
-            # self.regressor = SVR(**self.args['svr']['default'])
-            # self.regressor = SVR(**self.args['svr']['preset_model_params'])
+            if self.args['leaf_expert']['expert'] == 'linear':
+                self.regressor = LinearRegression()
+            elif self.args['leaf_expert']['expert'] == 'svr':
+                if self.args['leaf_expert']['tune'] is True:
+                    self.regressor = SVR(**self.args['svr']['preset_model_params'])
+                else:
+                    self.regressor = SVR(**self.args['svr']['default'])
+
             self.regressor_best = None
 
         # Initialize node conditional and criterion
@@ -78,8 +89,15 @@ class Node():
         self.children_count = 0
 
         # Create non-leaf data
-        #  self.classifier = SVC(**self.args['svm']['default'])
-        self.classifier = SVC(**self.args['svm']['preset_model_params'])
+        if self.args['node_expert']['expert'] == 'svm':
+            if self.args['node_expert']['tune'] is True:
+                self.classifier = SVC(**self.args['svm']['preset_model_params'])
+            else:
+                self.classifier = SVC(**self.args['svm']['default'])
+        else:
+            self.logger.error('Non-SVM node expert not implemented!')
+            raise NotImplementedError("Non-SVM node expert not implemented!")
+
         self.classifier_best = None
         self.t_best = None
 
@@ -131,6 +149,8 @@ class Tree():
         self.logger = logger
 
         np.random.seed(self.args['random_seed'])
+
+        self.feature_dim = self.args['feature_dim']
 
         self.data = None  # store original data
         self.num_samples = None  # total number of samples
@@ -296,7 +316,6 @@ class Tree():
                 self.grow(X_new, Y_new, nodes_per_level_new)
 
             else:  # no improvement with this subtree
-                # pdb.set_trace()
                 node.convert_nonleaf2leaf()  # convert back to leaf
 
                 del self.nodes[-1]  # delete subtree
@@ -337,10 +356,11 @@ class Tree():
 
             # Process data
             data_left, data_right = self._split_data(X, Y, t)
-            #  if len(data_left[1]) < self.args['min_samples_leaf'] or \
-                #  len(data_right[1]) < self.args['min_samples_leaf']:
-                #  # leaf has insufficient data to split
-                #  continue  # proceed to next t
+            if len(data_left[1]) < self.args['min_samples_leaf'] or \
+                    len(data_right[1]) < self.args['min_samples_leaf']:
+                # leaf has insufficient data to split
+                self.logger.debug('leaf has insufficient data to split')
+                continue  # proceed to next t
             Y_new = self._create_new_label(Y, t)
 
             # EM
@@ -394,18 +414,19 @@ class Tree():
         Train SVM.
         '''
         assert node.is_leaf is not True, "Error: leaf node reached!"
-        # node.classifier.fit(X, Y)
+        assert len(np.unique(Y)) == 2, "Error: non-binary labels!"
 
-        svm = node.classifier
+        if self.args['node_expert']['tune'] is True:
+            svm = node.classifier
+            grid = GridSearchCV(svm, **self.args['svm']['tuning_settings'])
+            grid.fit(X, Y)
+            self.logger.debug('-' * 25)
+            self.logger.debug('Best SVC parameters: ')
+            self.logger.debug(grid.best_params_)
+            node.classifier = grid.best_estimator_  # NOTE: copy trained classifier
 
-        grid = GridSearchCV(svm, **self.args['svm']['tuning_settings'])
-        grid.fit(X, Y)
-
-        self.logger.debug('-' * 25)
-        self.logger.debug('Best SVC parameters: ')
-        self.logger.debug(grid.best_params_)
-
-        node.classifier = grid.best_estimator_  # NOTE: copy trained classifier
+        else:
+            node.classifier.fit(X, Y)
 
     def train_leaf(self, node, X, Y):
         '''
@@ -413,15 +434,17 @@ class Tree():
         '''
         assert node.is_leaf is True, "Error: non-leaf node!"
 
-        node.regressor.fit(X, Y)
+        if self.args['leaf_expert']['tune'] is True:
+            svr = node.regressor
+            grid = GridSearchCV(svr, **self.args['svr']['tuning_settings'])
+            grid.fit(X, Y)
+            self.logger.debug('-' * 25)
+            self.logger.debug('Best SVR parameters: ')
+            self.logger.debug(grid.best_params_)
+            node.regressor = grid.best_estimator_
 
-        # svr = node.regressor
-        # grid = GridSearchCV(svr, **self.args['svr']['tuning_settings'])
-        # grid.fit(X, Y)
-        # self.logger.debug('-' * 25)
-        # self.logger.debug('Best SVR parameters: ')
-        # self.logger.debug(grid.best_params_)
-        # node.regressor = grid.best_estimator_
+        else:
+            node.regressor.fit(X, Y)
 
     def evaluate_Q(self):
         # Get all original data
@@ -453,7 +476,11 @@ class Tree():
             Ey_xz += fh_x_lk
 
         # Sum  NOTE: negative to get score
-        Q = -np.mean(np.abs(Yo - Ey_xz))
+        if self.args['Q'] == 'neg_mae':
+            Q = -np.mean(np.abs(Yo - Ey_xz))
+
+        elif self.args['Q'] == 'neg_mse':
+            Q = -np.mean(np.square(Yo - Ey_xz))
 
         return Q
 
@@ -535,7 +562,7 @@ class Tree():
     def predict_hard(self, X):
         Yh = []
         for x in X:
-            x = x.reshape(-1, 1)
+            x = x.reshape(-1, self.feature_dim)
 
             # Trace down to leaf node
             node = self.root

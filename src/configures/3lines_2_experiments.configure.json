@@ -3,6 +3,7 @@
     "random_seed": 1234,
 
 
+    "_comment": "==============================",
     "_comment": "Data",
     "3lines_2": {
         "path": "../../data/3lines_2",
@@ -19,27 +20,43 @@
     },
 
 
+    "_comment": "==============================",
     "_comment": "Model",
     "beta": {
         "random_seed": 1234,
 
+        "_comment": "-------------------------",
         "_comment": "tree structure",
         "feature_dim": 1,
-        "t_low": -6.5,
-        "t_high": 7.5,
         "t_step": 1,
         "max_depth": 5,
         "min_samples_split": 20,
         "min_samples_leaf": 10,
         "min_Q_increase": 0.1,
 
+        "node_expert": {
+            "expert" : "svm",
+            "tune": false
+        },
+
+        "leaf_expert": {
+            "expert" : "linear",
+            "tune": false
+        },
+
+        "Q": "neg_mae",
+
+        "_comment": "-------------------------",
+        "prediction": "soft",
+
+        "_comment": "-------------------------",
         "_comment": "node expert",
         "svm": {
             "default": {
                 "kernel": "rbf",
                 "gamma": 1,
                 "C": 10,
-                "shrinking": false,
+                "shrinking": true,
                 "probability": true,
                 "random_state": 1234,
                 "tol": 0.001
@@ -60,17 +77,18 @@
                 },
 
                 "cv": 3,
-                "scoring": ["neg_mean_absolute_error"],
+                "scoring": "f1",
                 "iid": false,
                 "n_jobs": 32,
                 "verbose": 0,
-                "refit": "neg_mean_absolute_error",
+                "refit": true,
                 "return_train_score": false
             }
         },
 
+        "_comment": "-------------------------",
         "_comment": "leaf expert",
-        "linear":{
+        "linear": {
         },
 
         "svr": {
@@ -79,7 +97,7 @@
                 "gamma": 1,
                 "C": 10,
                 "epsilon": 0,
-                "shrinking": false,
+                "shrinking": true,
                 "tol": 0.001
             },
 
@@ -93,25 +111,30 @@
                     "gamma": [0.01, 0.1, 1, 10],
                     "C": [0.01, 0.1, 1, 10],
                     "epsilon": [0, 0.1],
-                    "shrinking": [true, false]
+                    "shrinking": [true]
                 },
 
                 "cv": 3,
-                "scoring": ["neg_mean_absolute_error"],
+                "scoring": "neg_mean_absolute_error",
                 "iid": false,
                 "n_jobs": 32,
                 "verbose": 0,
-                "refit": "neg_mean_absolute_error",
+                "refit": true,
                 "return_train_score": false
             }
         }
     },
 
+
+    "_comment": "==============================",
+    "_comment": "Other models (tuned)",
+    "_comment": "-----------------------------",
     "linear": {
         "fit_intercept": true,
         "normalize": false
     },
 
+    "_comment": "-----------------------------",
     "svr": {
         "kernel": "rbf",
         "gamma": 1,
@@ -121,6 +144,7 @@
         "tol": 0.001
     },
 
+    "_comment": "-----------------------------",
     "decision_tree": {
         "criterion": "mae",
         "splitter": "best",
@@ -134,6 +158,7 @@
         "presort": false
     },
 
+    "_comment": "-----------------------------",
     "random_forest": {
         "n_estimators": 20,
         "criterion": "mae",
@@ -149,16 +174,20 @@
         "verbose": 0
     },
 
+    "_comment": "-----------------------------",
     "gaussian_process": {
     },
 
 
+    "_comment": "==============================",
     "_comment": "Training",
     "train":{
+        "_comment": "-------------------------",
         "beta": {
         },
 
 
+        "_comment": "-------------------------",
         "svr": {
             "parameter_tuning": false,
             "valid_split": 0.7,
@@ -167,6 +196,7 @@
         },
 
 
+        "_comment": "-------------------------",
         "decision_tree": {
             "parameter_tuning": false,
 
@@ -198,6 +228,7 @@
         },
 
 
+        "_comment": "-------------------------",
         "random_forest": {
             "parameter_tuning": false,
 
@@ -232,6 +263,7 @@
     },
 
 
+    "_comment": "==============================",
     "_comment": "Testing",
     "test": {
         "beta": {
@@ -239,10 +271,11 @@
     },
 
 
+    "_comment": "==============================",
     "_comment": "Log",
     "verbose": false,
     "log_dir": "../outputs/3lines_2/logs/tree",
-    "log_file": "run_0112_",
+    "log_file": "run_0114_linear_soft",
 
     "log": {
         "version": 1,
@@ -267,7 +300,7 @@
                 "class": "logging.handlers.RotatingFileHandler",
                 "level": "DEBUG",
                 "formatter": "custom",
-                "filename": "../outputs/3lines_2/logs/tree/run_0112_",
+                "filename": "../outputs/3lines_2/logs/tree/run_0112_linear_soft",
                 "maxBytes": 10485760,
                 "backupCount": 20,
                 "encoding": "utf8"
