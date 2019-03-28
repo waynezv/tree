@@ -1,0 +1,1380 @@
+2019/01/18 18:36 - [main - <module>:48  ] - [INFO ] - Loading & preparing data
+2019/01/18 18:36 - [main - <module>:61  ] - [INFO ] - Initializing model
+2019/01/18 18:36 - [main - <module>:66  ] - [INFO ] - Training
+2019/01/18 18:36 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/18 18:36 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 3.3318
+2019/01/18 18:36 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 4.3318
+2019/01/18 18:36 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 5.3318
+2019/01/18 18:36 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 6.3318
+2019/01/18 18:36 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 7.3318
+2019/01/18 18:36 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 8.3318
+2019/01/18 18:36 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 9.3318
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:36 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - EM_step :378 ] - [DEBUG] - Q: -13.6274  Q_best -1000000000.0000
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 10.3318
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:36 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - EM_step :378 ] - [DEBUG] - Q: -2.0442  Q_best -13.6274
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 11.3318
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:36 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - EM_step :378 ] - [DEBUG] - Q: -13.4136  Q_best -2.0442
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 12.3318
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:36 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - EM_step :378 ] - [DEBUG] - Q: -13.9738  Q_best -2.0442
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 13.3318
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:36 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - EM_step :378 ] - [DEBUG] - Q: -14.4760  Q_best -2.0442
+2019/01/18 18:36 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:36 - [main - EM_step :361 ] - [DEBUG] - t: 14.3318
+2019/01/18 18:36 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:36 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:36 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -17.5334  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 15.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -15.0926  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 16.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -19.7597  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 17.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -17.7708  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 18.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -2.9158  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 19.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -17.0223  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 20.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -17.6660  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 21.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -11.0478  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 22.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -12.7467  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 23.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -15.9856  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 24.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -3.6241  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 25.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -9.2918  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 26.3318
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:37 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:37 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:37 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:37 - [main - EM_step :378 ] - [DEBUG] - Q: -12.4864  Q_best -2.0442
+2019/01/18 18:37 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:37 - [main - EM_step :361 ] - [DEBUG] - t: 27.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -10.6562  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 28.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -11.6449  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 29.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -11.4005  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 30.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -7.3918  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 31.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -9.6506  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 32.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -7.6912  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 33.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -9.5318  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 34.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -4.2890  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 35.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -6.1950  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 36.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -14.8045  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 37.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -15.4566  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 38.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -12.2209  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 39.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:38 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - EM_step :378 ] - [DEBUG] - Q: -10.0182  Q_best -2.0442
+2019/01/18 18:38 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:38 - [main - EM_step :361 ] - [DEBUG] - t: 40.3318
+2019/01/18 18:38 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:38 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:38 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -9.7549  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 41.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -16.7946  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 42.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -13.3935  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 43.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -11.8844  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 44.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -12.4049  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 45.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -13.6989  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 46.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -12.5973  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 47.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -15.5089  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 48.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -10.2812  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 49.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -18.8725  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 50.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -14.3655  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 51.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -14.2676  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 52.3318
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:39 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:39 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:39 - [main - EM_step :378 ] - [DEBUG] - Q: -15.0280  Q_best -2.0442
+2019/01/18 18:39 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:39 - [main - EM_step :361 ] - [DEBUG] - t: 53.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -5.5769  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 54.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -14.2396  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 55.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -12.1044  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 56.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -9.0598  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 57.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -8.2303  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 58.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -8.6887  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 59.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -9.7624  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 60.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -10.2724  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 61.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -12.0816  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 62.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -8.9342  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 63.3318
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:40 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:40 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:40 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:40 - [main - EM_step :378 ] - [DEBUG] - Q: -10.8800  Q_best -2.0442
+2019/01/18 18:40 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:40 - [main - EM_step :361 ] - [DEBUG] - t: 64.3318
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -8.5210  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 65.3318
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -11.4558  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 66.3318
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -10.5070  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 67.3318
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -8.5573  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 68.3318
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -9.2403  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 69.3318
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -8.9214  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 70.3318
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -4.9961  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 71.3318
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -5.9732  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 72.3318
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -10.2045  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 73.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 74.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 75.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 76.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 77.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 78.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 79.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 80.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 81.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - grow    :284 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - grow    :286 ] - [DEBUG] - Re-train with best t: 10.3318
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - grow    :291 ] - [DEBUG] - Q: -2.0442  Q_best -2.0442
+2019/01/18 18:41 - [main - grow    :292 ] - [DEBUG] - **************************************************
+2019/01/18 18:41 - [main - grow    :293 ] - [DEBUG] - subtree saw improvement
+2019/01/18 18:41 - [main - grow    :295 ] - [DEBUG] - t_best: 10.3318  Q_best: -2.0442
+2019/01/18 18:41 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/18 18:41 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 3.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 4.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 5.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 6.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 7.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 8.3318
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/18 18:41 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/18 18:41 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/18 18:41 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 11.3359
+2019/01/18 18:41 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 12.3359
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -15.6481  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 13.3359
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:41 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - EM_step :378 ] - [DEBUG] - Q: -16.8433  Q_best -2.0442
+2019/01/18 18:41 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:41 - [main - EM_step :361 ] - [DEBUG] - t: 14.3359
+2019/01/18 18:41 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:41 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:41 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -19.5900  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 15.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -19.1663  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 16.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -22.3898  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 17.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -22.0684  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 18.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -7.6503  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 19.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -20.9475  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 20.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -20.2501  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 21.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -14.7541  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 22.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -17.9132  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 23.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -20.5658  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 24.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -8.5134  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 25.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -15.0163  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 26.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:42 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - EM_step :378 ] - [DEBUG] - Q: -17.3298  Q_best -2.0442
+2019/01/18 18:42 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:42 - [main - EM_step :361 ] - [DEBUG] - t: 27.3359
+2019/01/18 18:42 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:42 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:42 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -14.5720  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 28.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -15.4567  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 29.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -16.3262  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 30.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -15.5686  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 31.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -15.4335  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 32.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -11.6186  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 33.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -13.3617  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 34.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -9.4392  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 35.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -10.5235  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 36.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -23.4199  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 37.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -20.2826  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 38.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -21.6901  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 39.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -14.7488  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 40.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -16.9016  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 41.3359
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:43 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:43 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:43 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:43 - [main - EM_step :378 ] - [DEBUG] - Q: -16.8591  Q_best -2.0442
+2019/01/18 18:43 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:43 - [main - EM_step :361 ] - [DEBUG] - t: 42.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -17.2488  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 43.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -13.2693  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 44.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -18.0233  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 45.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -20.1739  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 46.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -18.2524  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 47.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -17.1524  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 48.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -10.4096  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 49.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -10.5156  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 50.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -13.2565  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 51.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -11.9551  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 52.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -10.0628  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 53.3359
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:44 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:44 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:44 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:44 - [main - EM_step :378 ] - [DEBUG] - Q: -7.5940  Q_best -2.0442
+2019/01/18 18:44 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:44 - [main - EM_step :361 ] - [DEBUG] - t: 54.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -9.5055  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 55.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 6}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -9.0273  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 56.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -13.0604  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 57.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -6.8050  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 58.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -6.0262  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 59.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -12.4707  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 60.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -13.2732  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 61.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -12.9275  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 62.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -11.3709  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 63.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 6}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 6, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -11.8485  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 64.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 3, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -11.0869  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 65.3359
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:45 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:45 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:45 - [main - EM_step :378 ] - [DEBUG] - Q: -10.9610  Q_best -2.0442
+2019/01/18 18:45 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:45 - [main - EM_step :361 ] - [DEBUG] - t: 66.3359
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - EM_step :378 ] - [DEBUG] - Q: -10.5859  Q_best -2.0442
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 67.3359
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:46 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - EM_step :378 ] - [DEBUG] - Q: -9.8624  Q_best -2.0442
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 68.3359
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 4, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - EM_step :378 ] - [DEBUG] - Q: -2.8366  Q_best -2.0442
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 69.3359
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 4}
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 5, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - EM_step :378 ] - [DEBUG] - Q: -6.4925  Q_best -2.0442
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 70.3359
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - EM_step :378 ] - [DEBUG] - Q: -9.9309  Q_best -2.0442
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 71.3359
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - EM_step :378 ] - [DEBUG] - Q: -9.0839  Q_best -2.0442
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 72.3359
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mae', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - train_le:450 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - train_le:451 ] - [DEBUG] - Best leaf model parameters: 
+2019/01/18 18:46 - [main - train_le:452 ] - [DEBUG] - {'criterion': 'mse', 'max_depth': 2, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0, 'min_samples_leaf': 4, 'min_samples_split': 2}
+2019/01/18 18:46 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/18 18:46 - [main - EM_step :378 ] - [DEBUG] - Q: -11.3966  Q_best -2.0442
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 73.3359
+2019/01/18 18:46 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 74.3359
+2019/01/18 18:46 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 75.3359
+2019/01/18 18:46 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 76.3359
+2019/01/18 18:46 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 77.3359
+2019/01/18 18:46 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 78.3359
+2019/01/18 18:46 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 79.3359
+2019/01/18 18:46 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 80.3359
+2019/01/18 18:46 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:46 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/18 18:46 - [main - EM_step :361 ] - [DEBUG] - t: 81.3359
+2019/01/18 18:46 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/18 18:46 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/18 18:46 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/18 18:46 - [main - <module>:68  ] - [INFO ] - ==================================================
+2019/01/18 18:46 - [main - <module>:69  ] - [INFO ] - t_best:
+2019/01/18 18:46 - [main - <module>:70  ] - [INFO ] - [10.331807831999999]
+2019/01/18 18:46 - [main - <module>:71  ] - [INFO ] - Q_best:
+2019/01/18 18:46 - [main - <module>:72  ] - [INFO ] - [-2.044181211479487]
+2019/01/18 18:46 - [main - <module>:75  ] - [INFO ] - Testing
+2019/01/18 18:46 - [main - <module>:90  ] - [INFO ] - **************************************************
+2019/01/18 18:46 - [main - <module>:92  ] - [INFO ] - Train MAE = 0.8516  RMSE = 1.4297
+2019/01/18 18:46 - [main - <module>:94  ] - [INFO ] - Test MAE = 4.5855  RMSE = 6.9257
+2019/01/18 18:46 - [main - <module>:96  ] - [INFO ] - ==================================================
+2019/01/18 18:46 - [main - <module>:97  ] - [INFO ] - Parameters & settings
+2019/01/18 18:46 - [main - <module>:98  ] - [INFO ] - {'_comment': 'Log', 'random_seed': 1234, 'concrete': {'path': '../../data/concrete', 'file': 'concrete.txt', 'num_load': None, 'test_size': 0.3, 'random_state': 1234}, 'beta': {'random_seed': 1234, '_comment': 'leaf expert', 'feature_dim': 8, 't_step': 1, 'max_depth': 5, 'min_samples_split': 20, 'min_samples_leaf': 20, 'min_Q_increase': 0.1, 'node_expert': {'expert': 'svm', 'tune': False}, 'leaf_expert': {'expert': 'dt', 'tune': True}, 'Q': 'neg_mse', 'prediction': 'soft', 'svm': {'default': {'kernel': 'rbf', 'gamma': 'scale', 'C': 100, 'shrinking': True, 'probability': True, 'random_state': 1234, 'tol': 0.001, 'cache_size': 1024}, 'preset_model_params': {'probability': True, 'random_state': 1234, 'tol': 0.001, 'cache_size': 1024}, 'tuning_settings': {'param_grid': {'kernel': ['rbf'], 'gamma': ['scale'], 'C': [100], 'shrinking': [True]}, 'cv': 3, 'scoring': 'balanced_accuracy', 'iid': False, 'n_jobs': 16, 'verbose': 0, 'refit': True, 'return_train_score': False}}, 'linear': {}, 'svr': {'default': {'kernel': 'rbf', 'gamma': 'scale', 'C': 100, 'epsilon': 0.9, 'shrinking': True, 'tol': 0.001, 'cache_size': 1024}, 'preset_model_params': {'tol': 0.001, 'cache_size': 1024}, 'tuning_settings': {'param_grid': {'kernel': ['linear', 'rbf'], 'gamma': [0.01, 0.1, 1, 10, 100], 'C': [0.01, 0.1, 1, 10, 100], 'epsilon': [0, 0.1], 'shrinking': [True]}, 'cv': 3, 'scoring': 'neg_mean_absolute_error', 'iid': False, 'n_jobs': 16, 'verbose': 0, 'refit': True, 'return_train_score': False}}, 'dt': {'default': {'criterion': 'mae', 'splitter': 'best', 'max_depth': None, 'max_leaf_nodes': None, 'max_features': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_impurity_decrease': 0, 'random_state': 1234, 'presort': False}, 'preset_model_params': {'splitter': 'best', 'random_state': 1234, 'presort': False}, 'tuning_settings': {'param_grid': {'criterion': ['mse', 'mae'], 'max_depth': [2, 4, 6, None], 'max_leaf_nodes': [None], 'max_features': [None], 'min_samples_split': [2, 4, 6], 'min_samples_leaf': [1, 2, 3, 4, 5], 'min_impurity_decrease': [0]}, 'cv': 3, 'scoring': 'neg_mean_squared_error', 'iid': False, 'n_jobs': 16, 'verbose': 1, 'refit': True, 'return_train_score': False}}}, 'linear': {'fit_intercept': True, 'normalize': False}, 'svr': {'kernel': 'linear', 'gamma': 0.01, 'C': 0.01, 'epsilon': 0, 'shrinking': True, 'tol': 0.001}, 'decision_tree': {'criterion': 'mae', 'splitter': 'best', 'max_depth': None, 'max_leaf_nodes': None, 'max_features': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_impurity_decrease': 0, 'random_state': 1234, 'presort': False}, 'random_forest': {'n_estimators': 100, 'criterion': 'mse', 'max_depth': None, 'max_leaf_nodes': None, 'max_features': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_impurity_decrease': 0, 'bootstrap': True, 'n_jobs': 1, 'random_state': 1234, 'verbose': 0}, 'gaussian_process': {}, 'train': {'_comment': '-------------------------', 'beta': {}, 'svr': {'parameter_tuning': False, 'preset_model_params': {'tol': 0.001}, 'tuning_settings': {'param_grid': {'kernel': ['linear', 'rbf'], 'C': [0.01, 0.1, 1, 5, 10, 50, 100], 'gamma': [0.01, 0.1, 1, 5, 10, 50, 100], 'epsilon': [0, 0.1], 'shrinking': [True, False]}, 'cv': 3, 'scoring': ['neg_mean_absolute_error', 'neg_mean_squared_error'], 'iid': False, 'n_jobs': 16, 'verbose': 1, 'refit': 'neg_mean_absolute_error', 'return_train_score': False}}, 'decision_tree': {'parameter_tuning': False, 'preset_model_params': {'splitter': 'best', 'random_state': 1234, 'presort': False}, 'tuning_settings': {'param_grid': {'criterion': ['mse', 'mae'], 'max_depth': [2, 4, 6, None], 'max_leaf_nodes': [None], 'max_features': [None], 'min_samples_split': [2, 4, 6], 'min_samples_leaf': [1, 2, 3, 4, 5], 'min_impurity_decrease': [0]}, 'cv': 3, 'scoring': ['neg_mean_absolute_error', 'neg_mean_squared_error'], 'iid': False, 'n_jobs': 16, 'verbose': 1, 'refit': 'neg_mean_absolute_error', 'return_train_score': False}}, 'random_forest': {'parameter_tuning': False, 'preset_model_params': {'random_state': 1234, 'n_jobs': 1, 'verbose': 0}, 'tuning_settings': {'param_grid': {'n_estimators': [10, 20, 30, 50, 100], 'criterion': ['mse', 'mae'], 'max_depth': [2, 4, 6, None], 'max_leaf_nodes': [None], 'max_features': [None], 'min_samples_split': [2, 4, 6], 'min_samples_leaf': [1, 2, 3, 4, 5], 'min_impurity_decrease': [0], 'bootstrap': [True]}, 'cv': 3, 'scoring': ['neg_mean_absolute_error', 'neg_mean_squared_error'], 'iid': False, 'n_jobs': 16, 'verbose': 1, 'refit': 'neg_mean_absolute_error', 'return_train_score': False}}}, 'test': {'beta': {}}, 'verbose': False, 'log_dir': '../outputs/concrete/logs/tree', 'log_file': 'run_0118_dt', 'log': {'version': 1, 'disable_existing_loggers': False, 'formatters': {'custom': {'format': '%(asctime)s - [%(name)s - %(funcName)-8.8s:%(lineno)-4d] - [%(levelname)-5.5s] - %(message)s', 'datefmt': '%Y/%m/%d %H:%M'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'DEBUG', 'formatter': 'custom', 'stream': 'ext://sys.stdout'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'DEBUG', 'formatter': 'custom', 'filename': '../outputs/concrete/logs/tree/run_0118_dt', 'maxBytes': 10485760, 'backupCount': 20, 'encoding': 'utf8'}}, 'loggers': {'main': {'level': 'DEBUG', 'handlers': ['console', 'file'], 'propagate': False}}, 'root': {'level': 'DEBUG', 'handlers': []}}}

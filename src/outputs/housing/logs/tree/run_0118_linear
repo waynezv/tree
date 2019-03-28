@@ -1,0 +1,411 @@
+2019/01/19 02:15 - [main - <module>:48  ] - [INFO ] - Loading & preparing data
+2019/01/19 02:15 - [main - <module>:61  ] - [INFO ] - Initializing model
+2019/01/19 02:15 - [main - <module>:66  ] - [INFO ] - Training
+2019/01/19 02:15 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 02:15 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 02:15 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:15 - [main - EM_step :361 ] - [DEBUG] - t: 7.3000
+2019/01/19 02:15 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:15 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:15 - [main - EM_step :361 ] - [DEBUG] - t: 8.3000
+2019/01/19 02:15 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:15 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:15 - [main - EM_step :361 ] - [DEBUG] - t: 9.3000
+2019/01/19 02:15 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:15 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:15 - [main - EM_step :361 ] - [DEBUG] - t: 10.3000
+2019/01/19 02:15 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:15 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:15 - [main - EM_step :361 ] - [DEBUG] - t: 11.3000
+2019/01/19 02:15 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:15 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:15 - [main - EM_step :361 ] - [DEBUG] - t: 12.3000
+2019/01/19 02:15 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:15 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:15 - [main - EM_step :361 ] - [DEBUG] - t: 13.3000
+2019/01/19 02:15 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:15 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:15 - [main - EM_step :361 ] - [DEBUG] - t: 14.3000
+2019/01/19 02:15 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:15 - [main - EM_step :378 ] - [DEBUG] - Q: -24.7573  Q_best -1000000000.0000
+2019/01/19 02:15 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:15 - [main - EM_step :361 ] - [DEBUG] - t: 15.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -24.0904  Q_best -24.7573
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 16.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -24.5844  Q_best -24.0904
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 17.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -22.5554  Q_best -24.0904
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 18.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -20.8809  Q_best -22.5554
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 19.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -21.1082  Q_best -20.8809
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 20.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -21.0890  Q_best -20.8809
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 21.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -20.3940  Q_best -20.8809
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 22.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -19.1113  Q_best -20.3940
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 23.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -17.9105  Q_best -19.1113
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 24.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -15.1907  Q_best -17.9105
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 25.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -14.7097  Q_best -15.1907
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 26.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -14.6408  Q_best -14.7097
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 27.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -13.9380  Q_best -14.6408
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 28.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -16.4517  Q_best -13.9380
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 29.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -16.8966  Q_best -13.9380
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 30.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -14.6045  Q_best -13.9380
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 31.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 32.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 33.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 34.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 35.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 36.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 37.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 38.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 39.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 40.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 41.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 42.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 43.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 44.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 45.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 46.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 47.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 48.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - grow    :284 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - grow    :286 ] - [DEBUG] - Re-train with best t: 27.3000
+2019/01/19 02:16 - [main - grow    :291 ] - [DEBUG] - Q: -13.9380  Q_best -13.9380
+2019/01/19 02:16 - [main - grow    :292 ] - [DEBUG] - **************************************************
+2019/01/19 02:16 - [main - grow    :293 ] - [DEBUG] - subtree saw improvement
+2019/01/19 02:16 - [main - grow    :295 ] - [DEBUG] - t_best: 27.3000  Q_best: -13.9380
+2019/01/19 02:16 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 02:16 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 7.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 8.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 9.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 10.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 11.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 12.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 13.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 14.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.9226  Q_best -13.9380
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 15.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.7594  Q_best -12.9226
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 16.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.8199  Q_best -12.7594
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 17.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.9995  Q_best -12.7594
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 18.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.7343  Q_best -12.7594
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 19.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.7479  Q_best -12.7343
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 20.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -13.1004  Q_best -12.7343
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 21.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -13.1043  Q_best -12.7343
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 22.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -13.5387  Q_best -12.7343
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 23.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -13.7494  Q_best -12.7343
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 24.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 25.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - grow    :284 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - grow    :286 ] - [DEBUG] - Re-train with best t: 18.3000
+2019/01/19 02:16 - [main - grow    :291 ] - [DEBUG] - Q: -12.7343  Q_best -12.7343
+2019/01/19 02:16 - [main - grow    :292 ] - [DEBUG] - **************************************************
+2019/01/19 02:16 - [main - grow    :293 ] - [DEBUG] - subtree saw improvement
+2019/01/19 02:16 - [main - grow    :295 ] - [DEBUG] - t_best: 18.3000  Q_best: -12.7343
+2019/01/19 02:16 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 02:16 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 7.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 8.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 9.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 10.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 11.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 12.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 13.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 14.3000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.6075  Q_best -12.7343
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 15.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 16.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - grow    :284 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - grow    :286 ] - [DEBUG] - Re-train with best t: 14.3000
+2019/01/19 02:16 - [main - grow    :291 ] - [DEBUG] - Q: -12.6075  Q_best -12.6075
+2019/01/19 02:16 - [main - grow    :292 ] - [DEBUG] - **************************************************
+2019/01/19 02:16 - [main - grow    :293 ] - [DEBUG] - subtree saw improvement
+2019/01/19 02:16 - [main - grow    :295 ] - [DEBUG] - t_best: 14.3000  Q_best: -12.6075
+2019/01/19 02:16 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 02:16 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 7.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 8.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 9.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 10.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 11.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 12.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 13.3000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/19 02:16 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/19 02:16 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 02:16 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 15.4000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 16.4000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/19 02:16 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/19 02:16 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 02:16 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 19.4000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 20.4000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.7578  Q_best -12.6075
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 21.4000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.7245  Q_best -12.6075
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 22.4000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.9086  Q_best -12.6075
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 23.4000
+2019/01/19 02:16 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 02:16 - [main - EM_step :378 ] - [DEBUG] - Q: -12.9034  Q_best -12.6075
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 24.4000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 25.4000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/19 02:16 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/19 02:16 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 02:16 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 28.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 29.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 30.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 31.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 32.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 33.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 34.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 35.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 36.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 37.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 38.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 39.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 40.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 41.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 42.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 43.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 44.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 45.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 46.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 47.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 02:16 - [main - EM_step :361 ] - [DEBUG] - t: 48.5000
+2019/01/19 02:16 - [main - EM_step :368 ] - [DEBUG] - leaf has insufficient data to split
+2019/01/19 02:16 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/19 02:16 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/19 02:16 - [main - <module>:68  ] - [INFO ] - ==================================================
+2019/01/19 02:16 - [main - <module>:69  ] - [INFO ] - t_best:
+2019/01/19 02:16 - [main - <module>:70  ] - [INFO ] - [27.30000000000002, 18.30000000000001, 14.300000000000006]
+2019/01/19 02:16 - [main - <module>:71  ] - [INFO ] - Q_best:
+2019/01/19 02:16 - [main - <module>:72  ] - [INFO ] - [-13.938041149564077, -12.734251586289563, -12.607472011918238]
+2019/01/19 02:16 - [main - <module>:75  ] - [INFO ] - Testing
+2019/01/19 02:16 - [main - <module>:90  ] - [INFO ] - **************************************************
+2019/01/19 02:16 - [main - <module>:92  ] - [INFO ] - Train MAE = 2.3692  RMSE = 3.5507
+2019/01/19 02:16 - [main - <module>:94  ] - [INFO ] - Test MAE = 2.9950  RMSE = 4.2459
+2019/01/19 02:16 - [main - <module>:96  ] - [INFO ] - ==================================================
+2019/01/19 02:16 - [main - <module>:97  ] - [INFO ] - Parameters & settings
+2019/01/19 02:16 - [main - <module>:98  ] - [INFO ] - {'_comment': 'Log', 'random_seed': 1234, 'housing': {'path': '../../data/housing', 'file': 'housing_scale.txt', 'num_load': None, 'test_size': 0.3, 'random_state': 1234}, 'beta': {'random_seed': 1234, '_comment': 'leaf expert', 'feature_dim': 13, 't_step': 1, 'max_depth': 5, 'min_samples_split': 20, 'min_samples_leaf': 50, 'min_Q_increase': 0.1, 'node_expert': {'expert': 'svm', 'tune': False}, 'leaf_expert': {'expert': 'svr', 'tune': False}, 'Q': 'neg_mse', 'prediction': 'soft', 'svm': {'default': {'kernel': 'rbf', 'gamma': 0.0001, 'C': 100, 'shrinking': True, 'probability': True, 'random_state': 1234, 'tol': 0.001, 'cache_size': 1024}, 'preset_model_params': {'probability': True, 'random_state': 1234, 'tol': 0.001, 'cache_size': 1024}, 'tuning_settings': {'param_grid': {'kernel': ['rbf'], 'gamma': ['scale'], 'C': [100], 'shrinking': [True]}, 'cv': 3, 'scoring': 'balanced_accuracy', 'iid': False, 'n_jobs': 16, 'verbose': 0, 'refit': True, 'return_train_score': False}}, 'linear': {}, 'svr': {'default': {'kernel': 'linear', 'gamma': 0.01, 'C': 0.1, 'epsilon': 0, 'shrinking': True, 'tol': 0.001, 'cache_size': 1024}, 'preset_model_params': {'tol': 0.001, 'cache_size': 1024}, 'tuning_settings': {'param_grid': {'kernel': ['linear', 'rbf'], 'gamma': [0.01, 0.1, 1, 10, 100], 'C': [0.01, 0.1, 1, 10, 100], 'epsilon': [0, 0.1], 'shrinking': [True]}, 'cv': 3, 'scoring': 'neg_mean_absolute_error', 'iid': False, 'n_jobs': 16, 'verbose': 0, 'refit': True, 'return_train_score': False}}, 'dt': {'default': {'criterion': 'mse', 'splitter': 'best', 'max_depth': None, 'max_leaf_nodes': None, 'max_features': None, 'min_samples_split': 2, 'min_samples_leaf': 4, 'min_impurity_decrease': 0, 'random_state': 1234, 'presort': False}}}, 'linear': {'fit_intercept': True, 'normalize': False}, 'svr': {'kernel': 'linear', 'gamma': 0.01, 'C': 0.1, 'epsilon': 0, 'shrinking': True, 'tol': 0.001}, 'decision_tree': {'criterion': 'mse', 'splitter': 'best', 'max_depth': None, 'max_leaf_nodes': None, 'max_features': None, 'min_samples_split': 2, 'min_samples_leaf': 4, 'min_impurity_decrease': 0, 'random_state': 1234, 'presort': False}, 'random_forest': {'n_estimators': 20, 'criterion': 'mse', 'max_depth': None, 'max_leaf_nodes': None, 'max_features': None, 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_impurity_decrease': 0, 'bootstrap': True, 'n_jobs': 1, 'random_state': 1234, 'verbose': 0}, 'gaussian_process': {}, 'train': {'_comment': '-------------------------', 'beta': {}, 'svr': {'parameter_tuning': False, 'preset_model_params': {'tol': 0.001}, 'tuning_settings': {'param_grid': {'kernel': ['linear', 'rbf'], 'C': [0.01, 0.1, 1, 10, 100], 'gamma': [0.01, 0.1, 1, 10, 100], 'epsilon': [0, 0.1], 'shrinking': [True, False]}, 'cv': 3, 'scoring': 'neg_mean_squared_error', 'iid': False, 'n_jobs': 4, 'verbose': 1, 'refit': True, 'return_train_score': False}}, 'decision_tree': {'parameter_tuning': False, 'preset_model_params': {'splitter': 'best', 'random_state': 1234, 'presort': False}, 'tuning_settings': {'param_grid': {'criterion': ['mse', 'mae'], 'max_depth': [2, 4, 6, None], 'max_leaf_nodes': [None], 'max_features': [None], 'min_samples_split': [2, 4, 6], 'min_samples_leaf': [1, 2, 3, 4, 5], 'min_impurity_decrease': [0]}, 'cv': 3, 'scoring': 'neg_mean_squared_error', 'iid': False, 'n_jobs': 16, 'verbose': 1, 'refit': True, 'return_train_score': False}}, 'random_forest': {'parameter_tuning': False, 'preset_model_params': {'random_state': 1234, 'n_jobs': 1, 'verbose': 0}, 'tuning_settings': {'param_grid': {'n_estimators': [10, 20, 30, 50, 100], 'criterion': ['mse', 'mae'], 'max_depth': [2, 4, 6, None], 'max_leaf_nodes': [None], 'max_features': [None], 'min_samples_split': [2, 4, 6], 'min_samples_leaf': [1, 2, 3, 4, 5], 'min_impurity_decrease': [0], 'bootstrap': [True]}, 'cv': 3, 'scoring': 'neg_mean_squared_error', 'iid': False, 'n_jobs': 16, 'verbose': 1, 'refit': True, 'return_train_score': False}}}, 'test': {'beta': {}}, 'verbose': False, 'log_dir': '../outputs/housing/logs/tree', 'log_file': 'run_0118_linear', 'log': {'version': 1, 'disable_existing_loggers': False, 'formatters': {'custom': {'format': '%(asctime)s - [%(name)s - %(funcName)-8.8s:%(lineno)-4d] - [%(levelname)-5.5s] - %(message)s', 'datefmt': '%Y/%m/%d %H:%M'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'DEBUG', 'formatter': 'custom', 'stream': 'ext://sys.stdout'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'DEBUG', 'formatter': 'custom', 'filename': '../outputs/housing/logs/tree/run_0118_linear', 'maxBytes': 10485760, 'backupCount': 20, 'encoding': 'utf8'}}, 'loggers': {'main': {'level': 'DEBUG', 'handlers': ['console', 'file'], 'propagate': False}}, 'root': {'level': 'DEBUG', 'handlers': []}}}

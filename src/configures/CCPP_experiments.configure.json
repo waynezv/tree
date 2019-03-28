@@ -49,7 +49,7 @@
             "default": {
                 "kernel": "rbf",
                 "gamma": 0.01,
-                "C": 10,
+                "C": 100,
                 "shrinking": true,
                 "probability": true,
                 "random_state": 1234,
@@ -91,7 +91,7 @@
             "default": {
                 "kernel": "rbf",
                 "gamma": 0.01,
-                "C": 10,
+                "C": 100,
                 "epsilon": 0.2,
                 "shrinking": true,
                 "tol": 0.001,

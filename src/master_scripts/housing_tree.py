@@ -7,6 +7,7 @@ import json
 import logging
 import logging.config
 import numpy as np
+from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import pdb
 for path in [
@@ -19,7 +20,7 @@ for path in [
             os.path.dirname(os.path.dirname(
                 os.path.realpath(__file__))),
             path))
-from datasets import get_kin40k_data
+from datasets import get_housing_data
 from tree import Tree
 
 # Parse arguments
@@ -45,13 +46,12 @@ logger = logging.getLogger('main')
 
 # Data
 logger.info('Loading & preparing data')
-opts = args['kin40k']
-X_train, Y_train = get_kin40k_data(
-    os.path.join(opts['path'], opts['train']['file'])
-)
-X_test, Y_test = get_kin40k_data(
-    os.path.join(opts['path'], opts['test']['file'])
-)
+opts = args['housing']
+X_data, Y_data = get_housing_data(os.path.join(opts['path'], opts['file']))
+
+X_train, X_test, Y_train, Y_test = train_test_split(
+    X_data, Y_data, test_size=opts['test_size'],
+    random_state=opts['random_state'])
 
 if X_train.ndim < 2:
     X_train = X_train.reshape(-1, 1)

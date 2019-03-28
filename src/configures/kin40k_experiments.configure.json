@@ -28,7 +28,7 @@
         "_comment": "-------------------------",
         "_comment": "tree structure",
         "feature_dim": 8,
-        "t_step": 1,
+        "t_step": 0.1,
         "max_depth": 5,
         "min_samples_split": 20,
         "min_samples_leaf": 20,
@@ -97,8 +97,8 @@
             "default": {
                 "kernel": "rbf",
                 "gamma": "scale",
-                "C": 100,
-                "epsilon": 0.9,
+                "C": 200,
+                "epsilon": 0,
                 "shrinking": true,
                 "tol": 0.001,
                 "cache_size": 1024
@@ -297,8 +297,8 @@
     "_comment": "==============================",
     "_comment": "Log",
     "verbose": false,
-    "log_dir": "../outputs/kin40k/logs/svr",
-    "log_file": "run_0117_test",
+    "log_dir": "../outputs/kin40k/logs/tree",
+    "log_file": "run_0118_svr",
 
     "log": {
         "version": 1,
@@ -323,7 +323,7 @@
                 "class": "logging.handlers.RotatingFileHandler",
                 "level": "DEBUG",
                 "formatter": "custom",
-                "filename": "../outputs/kin40k/logs/svr/run_0117_test",
+                "filename": "../outputs/kin40k/logs/tree/run_0118_svr",
                 "maxBytes": 10485760,
                 "backupCount": 20,
                 "encoding": "utf8"

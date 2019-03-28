@@ -1,0 +1,231 @@
+2019/01/19 01:03 - [main - <module>:50  ] - [INFO ] - Loading & preparing data
+2019/01/19 01:03 - [main - <module>:64  ] - [INFO ] - Initializing model
+2019/01/19 01:03 - [main - <module>:69  ] - [INFO ] - Training
+2019/01/19 01:03 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:03 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: -6.5986
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -14.3985  Q_best -1000000000.0000
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: -5.5986
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -13.3671  Q_best -14.3985
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: -4.5986
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -13.1708  Q_best -13.3671
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: -3.5986
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -12.1367  Q_best -13.1708
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: -2.5986
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -11.2146  Q_best -12.1367
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: -1.5986
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -10.9285  Q_best -11.2146
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: -0.5986
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -10.2859  Q_best -10.9285
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: 0.4014
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -9.9675  Q_best -10.2859
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: 1.4014
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -9.9075  Q_best -9.9675
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: 2.4014
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -10.1923  Q_best -9.9075
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: 3.4014
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -10.4984  Q_best -9.9075
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: 4.4014
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -11.3623  Q_best -9.9075
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: 5.4014
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -15.2138  Q_best -9.9075
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: 6.4014
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -14.7484  Q_best -9.9075
+2019/01/19 01:03 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:03 - [main - EM_step :361 ] - [DEBUG] - t: 7.4014
+2019/01/19 01:03 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - EM_step :378 ] - [DEBUG] - Q: -14.5110  Q_best -9.9075
+2019/01/19 01:03 - [main - grow    :284 ] - [DEBUG] - -------------------------
+2019/01/19 01:03 - [main - grow    :286 ] - [DEBUG] - Re-train with best t: 1.4014
+2019/01/19 01:04 - [main - grow    :291 ] - [DEBUG] - Q: -9.9075  Q_best -9.9075
+2019/01/19 01:04 - [main - grow    :292 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :293 ] - [DEBUG] - subtree saw improvement
+2019/01/19 01:04 - [main - grow    :295 ] - [DEBUG] - t_best: 1.4014  Q_best: -9.9075
+2019/01/19 01:04 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:04 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -6.5986
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -9.8226  Q_best -9.9075
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -5.5986
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -9.4786  Q_best -9.8226
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -4.5986
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -9.2577  Q_best -9.4786
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -3.5986
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -9.0202  Q_best -9.2577
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -2.5986
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.5935  Q_best -9.0202
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -1.5986
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.8036  Q_best -8.5935
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -0.5986
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -9.1081  Q_best -8.5935
+2019/01/19 01:04 - [main - grow    :284 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - grow    :286 ] - [DEBUG] - Re-train with best t: -2.5986
+2019/01/19 01:04 - [main - grow    :291 ] - [DEBUG] - Q: -8.5935  Q_best -8.5935
+2019/01/19 01:04 - [main - grow    :292 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :293 ] - [DEBUG] - subtree saw improvement
+2019/01/19 01:04 - [main - grow    :295 ] - [DEBUG] - t_best: -2.5986  Q_best: -8.5935
+2019/01/19 01:04 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:04 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -6.5986
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.5701  Q_best -8.5935
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -5.5986
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.5025  Q_best -8.5701
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -4.5986
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.5801  Q_best -8.5025
+2019/01/19 01:04 - [main - grow    :284 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - grow    :286 ] - [DEBUG] - Re-train with best t: -5.5986
+2019/01/19 01:04 - [main - grow    :291 ] - [DEBUG] - Q: -8.5025  Q_best -8.5025
+2019/01/19 01:04 - [main - grow    :292 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :293 ] - [DEBUG] - subtree saw improvement
+2019/01/19 01:04 - [main - grow    :295 ] - [DEBUG] - t_best: -5.5986  Q_best: -8.5025
+2019/01/19 01:04 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:04 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:04 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/19 01:04 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:04 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -4.5875
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.5443  Q_best -8.5025
+2019/01/19 01:04 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/19 01:04 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:04 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -1.5984
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.5307  Q_best -8.5025
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: -0.5984
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.5002  Q_best -8.5025
+2019/01/19 01:04 - [main - grow    :284 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - grow    :286 ] - [DEBUG] - Re-train with best t: -0.5984
+2019/01/19 01:04 - [main - grow    :291 ] - [DEBUG] - Q: -8.5002  Q_best -8.5002
+2019/01/19 01:04 - [main - grow    :292 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :293 ] - [DEBUG] - subtree saw improvement
+2019/01/19 01:04 - [main - grow    :295 ] - [DEBUG] - t_best: -0.5984  Q_best: -8.5002
+2019/01/19 01:04 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:04 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:04 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/19 01:04 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:04 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:04 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/19 01:04 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:04 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: 2.4105
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.4274  Q_best -8.5002
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: 3.4105
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.2264  Q_best -8.4274
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: 4.4105
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.0973  Q_best -8.2264
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: 5.4105
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.0297  Q_best -8.0973
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: 6.4105
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.1546  Q_best -8.0297
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: 7.4105
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.3574  Q_best -8.0297
+2019/01/19 01:04 - [main - grow    :284 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - grow    :286 ] - [DEBUG] - Re-train with best t: 5.4105
+2019/01/19 01:04 - [main - grow    :291 ] - [DEBUG] - Q: -8.0297  Q_best -8.0297
+2019/01/19 01:04 - [main - grow    :292 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :293 ] - [DEBUG] - subtree saw improvement
+2019/01/19 01:04 - [main - grow    :295 ] - [DEBUG] - t_best: 5.4105  Q_best: -8.0297
+2019/01/19 01:04 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:04 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: 2.4105
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.1191  Q_best -8.0297
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: 3.4105
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.0368  Q_best -8.0297
+2019/01/19 01:04 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/19 01:04 - [main - grow    :273 ] - [DEBUG] - ==================================================
+2019/01/19 01:04 - [main - grow    :274 ] - [DEBUG] - grown a subtree
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: 6.4212
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.0588  Q_best -8.0297
+2019/01/19 01:04 - [main - EM_step :360 ] - [DEBUG] - --------------------------------------------------
+2019/01/19 01:04 - [main - EM_step :361 ] - [DEBUG] - t: 7.4212
+2019/01/19 01:04 - [main - EM_step :376 ] - [DEBUG] - -------------------------
+2019/01/19 01:04 - [main - EM_step :378 ] - [DEBUG] - Q: -8.0517  Q_best -8.0297
+2019/01/19 01:04 - [main - grow    :330 ] - [DEBUG] - **************************************************
+2019/01/19 01:04 - [main - grow    :331 ] - [DEBUG] - subtree has no improvement, deleted
+2019/01/19 01:04 - [main - <module>:71  ] - [INFO ] - ==================================================
+2019/01/19 01:04 - [main - <module>:72  ] - [INFO ] - t_best:
+2019/01/19 01:04 - [main - <module>:73  ] - [INFO ] - [1.401419990425354, -2.598580009574646, -5.598580009574646, -0.5983729818621493, 5.410472851081186]
+2019/01/19 01:04 - [main - <module>:74  ] - [INFO ] - Q_best:
+2019/01/19 01:04 - [main - <module>:75  ] - [INFO ] - [-9.907463697396796, -8.593459482142817, -8.502470952122083, -8.500200760054712, -8.029745195080308]
+2019/01/19 01:04 - [main - <module>:78  ] - [INFO ] - Testing
+2019/01/19 01:04 - [main - <module>:93  ] - [INFO ] - **************************************************
+2019/01/19 01:04 - [main - <module>:95  ] - [INFO ] - Train MAE = 2.2587  RMSE = 2.8337
+2019/01/19 01:04 - [main - <module>:97  ] - [INFO ] - Test MAE = 2.3479  RMSE = 2.9048
+2019/01/19 01:04 - [main - <module>:124 ] - [INFO ] - ==================================================
+2019/01/19 01:04 - [main - <module>:125 ] - [INFO ] - Parameters & settings
+2019/01/19 01:04 - [main - <module>:126 ] - [INFO ] - {'_comment': 'Log', 'random_seed': 1234, '3lines_2': {'path': '../../data/3lines_2', 'train': {'file': '3lines_2_train.txt', 'num_load': None}, 'test': {'file': '3lines_2_test.txt', 'num_load': None}}, 'beta': {'random_seed': 1234, '_comment': 'leaf expert', 'feature_dim': 1, 't_step': 1, 'max_depth': 5, 'min_samples_split': 20, 'min_samples_leaf': 10, 'min_Q_increase': 0.1, 'node_expert': {'expert': 'svm', 'tune': False}, 'leaf_expert': {'expert': 'linear', 'tune': False}, 'Q': 'neg_mse', 'prediction': 'soft', 'svm': {'default': {'kernel': 'rbf', 'gamma': 'scale', 'C': 100, 'shrinking': True, 'probability': True, 'random_state': 1234, 'tol': 0.001}, 'preset_model_params': {'probability': True, 'random_state': 1234, 'tol': 0.001}, 'tuning_settings': {'param_grid': {'kernel': ['linear', 'rbf'], 'gamma': [0.01, 0.1, 1, 10], 'C': [0.01, 0.1, 1, 10], 'shrinking': [True]}, 'cv': 3, 'scoring': 'f1', 'iid': False, 'n_jobs': 32, 'verbose': 0, 'refit': True, 'return_train_score': False}}, 'linear': {}, 'svr': {'default': {'kernel': 'rbf', 'gamma': 1, 'C': 10, 'epsilon': 0, 'shrinking': True, 'tol': 0.001}, 'preset_model_params': {'tol': 0.001}, 'tuning_settings': {'param_grid': {'kernel': ['linear', 'rbf'], 'gamma': [0.01, 0.1, 1, 10], 'C': [0.01, 0.1, 1, 10], 'epsilon': [0, 0.1], 'shrinking': [True]}, 'cv': 3, 'scoring': 'neg_mean_absolute_error', 'iid': False, 'n_jobs': 32, 'verbose': 0, 'refit': True, 'return_train_score': False}}}, 'linear': {'fit_intercept': True, 'normalize': False}, 'svr': {'kernel': 'rbf', 'gamma': 1, 'C': 10, 'epsilon': 0, 'shrinking': False, 'tol': 0.001}, 'decision_tree': {'criterion': 'mae', 'splitter': 'best', 'max_depth': 5, 'max_leaf_nodes': None, 'max_features': None, 'min_samples_split': 2, 'min_samples_leaf': 4, 'min_impurity_decrease': 0, 'random_state': 1234, 'presort': False}, 'random_forest': {'n_estimators': 20, 'criterion': 'mae', 'max_depth': 5, 'max_leaf_nodes': None, 'max_features': None, 'min_samples_split': 4, 'min_samples_leaf': 1, 'min_impurity_decrease': 0, 'bootstrap': True, 'n_jobs': 1, 'random_state': 1234, 'verbose': 0}, 'gaussian_process': {}, 'train': {'_comment': '-------------------------', 'beta': {}, 'svr': {'parameter_tuning': False, 'valid_split': 0.7, 'C': [0.01, 0.05, 0.1, 0.5, 1, 5, 10, 20, 50, 100], 'Gamma': [0.01, 0.05, 0.1, 0.5, 1, 5, 10, 20, 50, 100]}, 'decision_tree': {'parameter_tuning': False, 'preset_model_params': {'splitter': 'best', 'random_state': 1234, 'presort': False}, 'tuning_settings': {'param_grid': {'criterion': ['mse', 'mae'], 'max_depth': [2, 3, 4, 5, 6, 7, None], 'max_leaf_nodes': [None], 'max_features': [None], 'min_samples_split': [2, 3, 4, 5, 6, 7], 'min_samples_leaf': [1, 2, 3, 4, 5, 6], 'min_impurity_decrease': [0, 0.1, 0.2, 0.3]}, 'cv': 3, 'scoring': ['neg_mean_absolute_error', 'neg_mean_squared_error'], 'iid': False, 'n_jobs': 2, 'verbose': 1, 'refit': 'neg_mean_absolute_error', 'return_train_score': False}}, 'random_forest': {'parameter_tuning': False, 'preset_model_params': {'random_state': 1234, 'n_jobs': 1, 'verbose': 0}, 'tuning_settings': {'param_grid': {'n_estimators': [1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50], 'criterion': ['mse', 'mae'], 'max_depth': [2, 3, 4, 5, 6, 7, None], 'max_leaf_nodes': [None], 'max_features': [None], 'min_samples_split': [2, 3, 4, 5, 6, 7], 'min_samples_leaf': [1, 2, 3, 4, 5, 6], 'min_impurity_decrease': [0, 0.1, 0.2, 0.3], 'bootstrap': [True, False]}, 'cv': 3, 'scoring': ['neg_mean_absolute_error', 'neg_mean_squared_error'], 'iid': False, 'n_jobs': 32, 'verbose': 1, 'refit': 'neg_mean_absolute_error', 'return_train_score': False}}}, 'test': {'beta': {}}, 'verbose': False, 'log_dir': '../outputs/3lines_2/logs/tree', 'log_file': 'run_0118_linear', 'log': {'version': 1, 'disable_existing_loggers': False, 'formatters': {'custom': {'format': '%(asctime)s - [%(name)s - %(funcName)-8.8s:%(lineno)-4d] - [%(levelname)-5.5s] - %(message)s', 'datefmt': '%Y/%m/%d %H:%M'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'DEBUG', 'formatter': 'custom', 'stream': 'ext://sys.stdout'}, 'file': {'class': 'logging.handlers.RotatingFileHandler', 'level': 'DEBUG', 'formatter': 'custom', 'filename': '../outputs/3lines_2/logs/tree/run_0118_linear', 'maxBytes': 10485760, 'backupCount': 20, 'encoding': 'utf8'}}, 'loggers': {'main': {'level': 'DEBUG', 'handlers': ['console', 'file'], 'propagate': False}}, 'root': {'level': 'DEBUG', 'handlers': []}}}

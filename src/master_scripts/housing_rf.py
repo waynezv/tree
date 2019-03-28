@@ -7,6 +7,7 @@ import json
 import logging
 import logging.config
 import numpy as np
+from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import pdb
 for path in [
@@ -19,7 +20,7 @@ for path in [
             os.path.dirname(os.path.dirname(
                 os.path.realpath(__file__))),
             path))
-from datasets import get_energy_data
+from datasets import get_housing_data
 from models import get_random_forest
 from generic_trainers import trainer
 from generic_predictors import predictor
@@ -48,13 +49,12 @@ logger = logging.getLogger('main')
 
 # Data
 logger.info('Loading & preparing data')
-opts = args['energy']
-X_train, Y_train = get_energy_data(
-    os.path.join(opts['path'], opts['train']['file'])
-)
-X_test, Y_test = get_energy_data(
-    os.path.join(opts['path'], opts['test']['file'])
-)
+opts = args['housing']
+X_data, Y_data = get_housing_data(os.path.join(opts['path'], opts['file']))
+
+X_train, X_test, Y_train, Y_test = train_test_split(
+    X_data, Y_data, test_size=opts['test_size'],
+    random_state=opts['random_state'])
 
 train_opts = args['train']['random_forest']
 if train_opts['parameter_tuning'] is True:  # tuning

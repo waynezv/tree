@@ -7,10 +7,8 @@ import json
 import logging
 import logging.config
 import numpy as np
+from sklearn.model_selection import train_test_split
 from sklearn import metrics
-import matplotlib
-matplotlib.use('Agg')
-from matplotlib import pyplot as plt
 import pdb
 for path in [
         'data_utils',
@@ -22,7 +20,7 @@ for path in [
             os.path.dirname(os.path.dirname(
                 os.path.realpath(__file__))),
             path))
-from datasets import get_3lines_2_data
+from datasets import get_energy_data
 from tree import Tree
 
 # Parse arguments
@@ -48,11 +46,11 @@ logger = logging.getLogger('main')
 
 # Data
 logger.info('Loading & preparing data')
-opts = args['3lines_2']
-X_train, Y_train = get_3lines_2_data(
+opts = args['energy']
+X_train, Y_train = get_energy_data(
     os.path.join(opts['path'], opts['train']['file'])
 )
-X_test, Y_test = get_3lines_2_data(
+X_test, Y_test = get_energy_data(
     os.path.join(opts['path'], opts['test']['file'])
 )
 
@@ -77,11 +75,8 @@ logger.info(tree.Q_best_history)
 # Test
 logger.info('Testing')
 if tree_opts['prediction'] == 'soft':
-    #  Yp_train = tree.predict(X_train)
-    #  Yp_test = tree.predict(X_test)
-
-    Yp_train, yh_xz_train, qz_x_train = tree.predict(X_train)
-    Yp_test, yh_xz_test, qz_x_test = tree.predict(X_test)
+    Yp_train = tree.predict(X_train)
+    Yp_test = tree.predict(X_test)
 
 elif tree_opts['prediction'] == 'hard':
     Yp_train = tree.predict_hard(X_train)
@@ -98,61 +93,6 @@ logger.info('Train MAE = {:.4f}  RMSE = {:.4f}'.
             format(mae_train, rmse_train))
 logger.info('Test MAE = {:.4f}  RMSE = {:.4f}'.
             format(mae_test, rmse_test))
-
-# Plot data
-fig = plt.figure(figsize=(6, 6))
-ax1 = fig.add_subplot(111)
-# ax1.scatter(X_train, Y_train, s=2, c='b', marker='.')
-# ax1.scatter(X_train, Yp_train, s=2, c='r', marker='+')
-
-# shaded background
-ax1.scatter(X_train, Y_train, s=2, c='b', marker='.', alpha=0.3)
-
-# plot predictions of each leaf predictor
-# with color shaded probability confidence
-for yh, qz in zip(yh_xz_train, qz_x_train):
-    # scale proba for best color
-    cc = (qz - np.min(qz)) / (np.max(qz) - np.min(qz))
-    cc += 0.1
-    cc /= 0.1
-    cc = 1 - cc
-    cc[0] = 1
-    ax1.scatter(X_train, yh, s=0.5, c=cc, marker='.', cmap='inferno')
-
-ax1.axis('tight')
-ax1.tick_params(axis='both', which='major', labelsize=12)
-ax1.set_xlabel('x', fontsize=12)
-ax1.set_ylabel('y', fontsize=12)
-# ax1.legend(('original', 'pred'), loc='best', fontsize=11)
-plt.tight_layout()
-plt.savefig('3lines_2_tree_train.pdf')
-
-fig = plt.figure(figsize=(6, 6))
-ax1 = fig.add_subplot(111)
-# ax1.scatter(X_test, Y_test, s=2, c='b', marker='.')
-# ax1.scatter(X_test, Yp_test, s=2, c='r', marker='+')
-
-# shaded background
-ax1.scatter(X_test, Y_test, s=2, c='b', marker='.', alpha=0.3)
-
-# plot predictions of each leaf predictor
-# with color shaded probability confidence
-for yh, qz in zip(yh_xz_test, qz_x_test):
-    # scale proba for best color
-    cc = (qz - np.min(qz))/(np.max(qz) - np.min(qz))
-    cc += 0.1
-    cc /= 0.1
-    cc = 1 - cc
-    cc[0] = 1
-    ax1.scatter(X_test, yh, s=0.5, c=cc, marker='.', cmap='inferno')
-
-ax1.axis('tight')
-ax1.tick_params(axis='both', which='major', labelsize=12)
-ax1.set_xlabel('x', fontsize=12)
-ax1.set_ylabel('y', fontsize=12)
-# ax1.legend(('original', 'pred'), loc='best', fontsize=11)
-plt.tight_layout()
-plt.savefig('3lines_2_tree_test.pdf')
 
 logger.info('=' * 50)
 logger.info('Parameters & settings')

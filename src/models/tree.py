@@ -68,6 +68,12 @@ class Node():
                     self.regressor = SVR(**self.args['svr']['preset_model_params'])
                 else:
                     self.regressor = SVR(**self.args['svr']['default'])
+            elif self.args['leaf_expert']['expert'] == 'dt':
+                from sklearn.tree import DecisionTreeRegressor
+                if self.args['leaf_expert']['tune'] is True:
+                    self.regressor = DecisionTreeRegressor(**self.args['dt']['preset_model_params'])
+                else:
+                    self.regressor = DecisionTreeRegressor(**self.args['dt']['default'])
 
             self.regressor_best = None
 
@@ -435,11 +441,14 @@ class Tree():
         assert node.is_leaf is True, "Error: non-leaf node!"
 
         if self.args['leaf_expert']['tune'] is True:
-            svr = node.regressor
-            grid = GridSearchCV(svr, **self.args['svr']['tuning_settings'])
+            model = node.regressor
+            if self.args['leaf_expert']['expert'] == 'svr':
+                grid = GridSearchCV(model, **self.args['svr']['tuning_settings'])
+            elif self.args['leaf_expert']['expert'] == 'dt':
+                grid = GridSearchCV(model, **self.args['dt']['tuning_settings'])
             grid.fit(X, Y)
             self.logger.debug('-' * 25)
-            self.logger.debug('Best SVR parameters: ')
+            self.logger.debug('Best leaf model parameters: ')
             self.logger.debug(grid.best_params_)
             node.regressor = grid.best_estimator_
 
@@ -584,30 +593,63 @@ class Tree():
         '''
         Compute E_q(z | x) [y | z, x] recursively.
         '''
-        Ey_xz_list = []
+        Ey_xz_list = []  # for each node on the tree
+        yh_xz_list = []
+        qz_x_list = []
 
         def _compute_Ey_xz(node, qz_x):
             if node is not None:
-                if node.is_leaf:
+                if node.is_leaf:  # at leaf
                     yh_xz_k = node.regressor_best.predict(X)
 
+                    yh_xz_list.append(yh_xz_k)
+                    qz_x_list.append(qz_x)
                     Ey_xz_list.append(yh_xz_k * qz_x)
                     return
 
+                # if not leaf
                 assert node.children_count == 2, "Incomplete children!"
 
+                # get proba
                 proba = node.classifier_best.predict_proba(X)
                 qz_x_l = proba[:, 0]
                 qz_x_r = proba[:, 1]
 
+                # recurse down the tree
                 _compute_Ey_xz(node.get_child_left(), qz_x * qz_x_l)
                 _compute_Ey_xz(node.get_child_right(), qz_x * qz_x_r)
 
         _compute_Ey_xz(self.root, self.root.qz_x_best)
 
         Ey_xz = reduce(lambda x, y: x + y, Ey_xz_list)
+        # return Ey_xz
+        return Ey_xz, yh_xz_list, qz_x_list
 
-        return Ey_xz
+        # collect to one matrix
+        # yhs = np.concatenate(
+            # [a.reshape(-1, 1) for a in yh_xz_list],
+            # axis=1)
+        # qzs = np.concatenate(
+            # [a.reshape(-1, 1) for a in qz_x_list],
+            # axis=1)
+
+        # get top-1 prediction
+        # idx = np.argmax(qzs, axis=1)
+        # yh = []
+        # for i in range(yhs.shape[0]):
+            # yh.append(yhs[i, idx[i]])
+
+        # get top-3 predictions
+        # idx = np.argsort(qzs, axis=1)[:, -3:][:, ::-1]
+        # yh = []
+        # for i in range(yhs.shape[0]):
+            # t = 0
+            # for j in range(3):
+                # t += (qzs[i, idx[i, j]] * yhs[i, idx[i, j]])
+            # yh.append(t)
+
+        # yh = np.array(yh, dtype=float)
+        # return yh, yh_xz_list, qz_x_list
 
     # ========================================
     def get_path(self):

@@ -25,7 +25,7 @@
         "t_step": 1,
         "max_depth": 5,
         "min_samples_split": 20,
-        "min_samples_leaf": 20,
+        "min_samples_leaf": 1,
         "min_Q_increase": 0.1,
 
         "node_expert": {
@@ -48,7 +48,7 @@
         "svm": {
             "default": {
                 "kernel": "rbf",
-                "gamma": "scale",
+                "gamma": 0.00001,
                 "C": 100,
                 "shrinking": true,
                 "probability": true,
@@ -89,10 +89,10 @@
 
         "svr": {
             "default": {
-                "kernel": "rbf",
-                "gamma": "scale",
-                "C": 100,
-                "epsilon": 0.9,
+                "kernel": "linear",
+                "gamma": 0.1,
+                "C": 1,
+                "epsilon": 0.1,
                 "shrinking": true,
                 "tol": 0.001,
                 "cache_size": 1024
@@ -114,6 +114,47 @@
 
                 "cv": 3,
                 "scoring": "neg_mean_absolute_error",
+                "iid": false,
+                "n_jobs": 16,
+                "verbose": 0,
+                "refit": true,
+                "return_train_score": false
+            }
+        },
+
+        "dt": {
+            "default": {
+                "criterion": "mae",
+                "splitter": "best",
+                "max_depth": null,
+                "max_leaf_nodes": null,
+                "max_features": null,
+                "min_samples_split": 2,
+                "min_samples_leaf": 1,
+                "min_impurity_decrease": 0,
+                "random_state": 1234,
+                "presort": false
+            },
+
+            "preset_model_params": {
+                "splitter": "best",
+                "random_state": 1234,
+                "presort": false
+            },
+
+            "tuning_settings": {
+                "param_grid": {
+                    "criterion": ["mse", "mae"],
+                    "max_depth": [2, 4, 6, null],
+                    "max_leaf_nodes": [null],
+                    "max_features": [null],
+                    "min_samples_split": [2, 4, 6],
+                    "min_samples_leaf": [1, 2, 3, 4, 5],
+                    "min_impurity_decrease": [0]
+                },
+
+                "cv": 3,
+                "scoring": "neg_mean_squared_error",
                 "iid": false,
                 "n_jobs": 16,
                 "verbose": 0,
@@ -292,7 +333,7 @@
     "_comment": "Log",
     "verbose": false,
     "log_dir": "../outputs/concrete/logs/tree",
-    "log_file": "run_0116_svr",
+    "log_file": "run_0118_svr",
 
     "log": {
         "version": 1,
@@ -317,7 +358,7 @@
                 "class": "logging.handlers.RotatingFileHandler",
                 "level": "DEBUG",
                 "formatter": "custom",
-                "filename": "../outputs/concrete/logs/tree/run_0116_svr",
+                "filename": "../outputs/concrete/logs/tree/run_0118_svr",
                 "maxBytes": 10485760,
                 "backupCount": 20,
                 "encoding": "utf8"

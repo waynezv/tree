@@ -28,7 +28,7 @@
         "_comment": "-------------------------",
         "_comment": "tree structure",
         "feature_dim": 1,
-        "t_step": 1,
+        "t_step": 0.3,
         "max_depth": 5,
         "min_samples_split": 20,
         "min_samples_leaf": 10,
@@ -40,11 +40,11 @@
         },
 
         "leaf_expert": {
-            "expert" : "linear",
+            "expert" : "svr",
             "tune": false
         },
 
-        "Q": "neg_mae",
+        "Q": "neg_mse",
 
         "_comment": "-------------------------",
         "prediction": "soft",
@@ -54,7 +54,7 @@
         "svm": {
             "default": {
                 "kernel": "rbf",
-                "gamma": 1,
+                "gamma": "scale",
                 "C": 10,
                 "shrinking": true,
                 "probability": true,
@@ -94,8 +94,8 @@
         "svr": {
             "default": {
                 "kernel": "rbf",
-                "gamma": 1,
-                "C": 10,
+                "gamma": "scale",
+                "C": 1000,
                 "epsilon": 0,
                 "shrinking": true,
                 "tol": 0.001
@@ -275,7 +275,7 @@
     "_comment": "Log",
     "verbose": false,
     "log_dir": "../outputs/3lines_2/logs/tree",
-    "log_file": "run_0114_linear_soft",
+    "log_file": "run_0122_svr",
 
     "log": {
         "version": 1,
@@ -300,7 +300,7 @@
                 "class": "logging.handlers.RotatingFileHandler",
                 "level": "DEBUG",
                 "formatter": "custom",
-                "filename": "../outputs/3lines_2/logs/tree/run_0112_linear_soft",
+                "filename": "../outputs/3lines_2/logs/tree/run_0122_svr",
                 "maxBytes": 10485760,
                 "backupCount": 20,
                 "encoding": "utf8"

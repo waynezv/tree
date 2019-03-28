@@ -21,11 +21,11 @@
 
         "_comment": "-------------------------",
         "_comment": "tree structure",
-        "feature_dim": 8,
-        "t_step": 1,
+        "feature_dim": 13,
+        "t_step": 0.1,
         "max_depth": 5,
         "min_samples_split": 20,
-        "min_samples_leaf": 20,
+        "min_samples_leaf": 50,
         "min_Q_increase": 0.1,
 
         "node_expert": {
@@ -48,7 +48,7 @@
         "svm": {
             "default": {
                 "kernel": "rbf",
-                "gamma": "scale",
+                "gamma": 0.0001,
                 "C": 100,
                 "shrinking": true,
                 "probability": true,
@@ -89,10 +89,10 @@
 
         "svr": {
             "default": {
-                "kernel": "rbf",
-                "gamma": "scale",
+                "kernel": "linear",
+                "gamma": 0.0001,
                 "C": 100,
-                "epsilon": 0.9,
+                "epsilon": 0,
                 "shrinking": true,
                 "tol": 0.001,
                 "cache_size": 1024
@@ -120,6 +120,21 @@
                 "refit": true,
                 "return_train_score": false
             }
+        },
+
+        "dt": {
+            "default": {
+                "criterion": "mse",
+                "splitter": "best",
+                "max_depth": null,
+                "max_leaf_nodes": null,
+                "max_features": null,
+                "min_samples_split": 2,
+                "min_samples_leaf": 4,
+                "min_impurity_decrease": 0,
+                "random_state": 1234,
+                "presort": false
+            }
         }
     },
 
@@ -134,23 +149,23 @@
 
     "_comment": "-----------------------------",
     "svr": {
-        "kernel": "rbf",
-        "gamma": 0.1,
-        "C": 100,
+        "kernel": "linear",
+        "gamma": 0.01,
+        "C": 0.1,
         "epsilon": 0,
-        "shrinking": false,
+        "shrinking": true,
         "tol": 0.001
     },
 
     "_comment": "-----------------------------",
     "decision_tree": {
-        "criterion": "mae",
+        "criterion": "mse",
         "splitter": "best",
-        "max_depth": 2,
+        "max_depth": null,
         "max_leaf_nodes": null,
         "max_features": null,
         "min_samples_split": 2,
-        "min_samples_leaf": 1,
+        "min_samples_leaf": 4,
         "min_impurity_decrease": 0,
         "random_state": 1234,
         "presort": false
@@ -158,13 +173,13 @@
 
     "_comment": "-----------------------------",
     "random_forest": {
-        "n_estimators": 100,
+        "n_estimators": 20,
         "criterion": "mse",
         "max_depth": null,
         "max_leaf_nodes": null,
         "max_features": null,
         "min_samples_split": 2,
-        "min_samples_leaf": 2,
+        "min_samples_leaf": 1,
         "min_impurity_decrease": 0,
         "bootstrap": true,
         "n_jobs": 1,
@@ -187,7 +202,7 @@
 
         "_comment": "-------------------------",
         "svr": {
-            "parameter_tuning": true,
+            "parameter_tuning": false,
 
             "preset_model_params": {
                 "tol": 0.001
@@ -247,7 +262,7 @@
 
         "_comment": "-------------------------",
         "random_forest": {
-            "parameter_tuning": true,
+            "parameter_tuning": false,
 
             "preset_model_params": {
                 "random_state": 1234,
@@ -291,8 +306,8 @@
     "_comment": "==============================",
     "_comment": "Log",
     "verbose": false,
-    "log_dir": "../outputs/housing/logs/svr",
-    "log_file": "run_0117_tune",
+    "log_dir": "../outputs/housing/logs/tree",
+    "log_file": "run_0118_svr",
 
     "log": {
         "version": 1,
@@ -317,7 +332,7 @@
                 "class": "logging.handlers.RotatingFileHandler",
                 "level": "DEBUG",
                 "formatter": "custom",
-                "filename": "../outputs/housing/logs/svr/run_0117_tune",
+                "filename": "../outputs/housing/logs/tree/run_0118_svr",
                 "maxBytes": 10485760,
                 "backupCount": 20,
                 "encoding": "utf8"
